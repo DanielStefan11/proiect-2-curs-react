@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProductItem.css";
 import { connect } from "react-redux";
-import { addToCart } from "../redux/cart/CartActions";
+import { addToCart } from "../../redux/cart/CartActions";
 import { Link } from "react-router-dom";
 
 function ProductItem(props) {
