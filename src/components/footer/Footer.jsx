@@ -13,7 +13,7 @@ function Footer() {
         <div className="footer-group d-flex flex-column">
           <h3 className="h5">Link-uri rapide:</h3>
           <Link to="/about">Despre</Link>
-          <Link to="/terms-and-conditions">Termeni și condiții</Link>
+          <Link to="/termeni-si-conditii">Termeni și condiții</Link>
         </div>
         <div className="footer-group">
           <h3 className="h5">Contactează-mă:</h3>
