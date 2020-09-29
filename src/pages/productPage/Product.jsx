@@ -1,9 +1,17 @@
 import React from "react";
-import Layout from "../../components/layout/Layout";
+// Data
 import products from "../../utils/products.json";
+// Components
+import Layout from "../../components/layout/Layout";
+// CSS
 import "./Product.css";
+// Redux
 import { connect } from "react-redux";
 import { addToCart } from "../../redux/cart/CartActions";
+import {
+  addToFavorites,
+  removeFromFavorites,
+} from "../../redux/favorites/FavoritesActions";
 
 class Product extends React.Component {
   constructor(props) {
@@ -24,10 +32,15 @@ class Product extends React.Component {
       return Number(productId) === product.id;
     });
     this.setState({ product: currentProduct });
+    // console.log(this.props);
   }
 
   render() {
     const { product } = this.state;
+    const { favoriteProducts } = this.props;
+    const foundProduct = favoriteProducts.find(
+      (favoriteProduct) => favoriteProduct.id === product.id
+    );
 
     return (
       <Layout>
@@ -41,22 +54,43 @@ class Product extends React.Component {
               <p className="h3 text-danger">
                 {product.price} {product.currency}
               </p>
-              <button
-                className="btn btn-dark mb-4 font-weight-bold"
-                onClick={() => {
-                  this.props.addToCart({
-                    product: {
-                      id: product.id,
-                      name: product.name,
-                      price: product.price,
-                      currency: product.currency,
-                      image: product.image,
-                    },
-                  });
-                }}
-              >
-                Adaugă în coș
-              </button>
+              <div className="btn-container d-flex flex-column">
+                <button
+                  className="btn btn-dark mb-4 font-weight-bold"
+                  onClick={() => {
+                    this.props.addToCart({
+                      product: {
+                        id: product.id,
+                        name: product.name,
+                        price: product.price,
+                        currency: product.currency,
+                        image: product.image,
+                      },
+                    });
+                  }}
+                >
+                  Adaugă în coș
+                </button>
+                {!foundProduct ? (
+                  <button
+                    className="btn btn-dark mb-4 font-weight-bold"
+                    onClick={() => {
+                      this.props.addToFavorites(product);
+                    }}
+                  >
+                    Adaugă la favorite
+                  </button>
+                ) : (
+                  <button
+                    className="btn btn-dark mb-4 font-weight-bold"
+                    onClick={() => {
+                      this.props.removeFromFavorites({ id: product.id });
+                    }}
+                  >
+                    Elimină din favorite
+                  </button>
+                )}
+              </div>
               <p>
                 <span className="font-weight-bold">Brand</span>: {product.brand}
               </p>
@@ -74,10 +108,18 @@ class Product extends React.Component {
   }
 }
 
-function mapDispatchToProps(dispatch) {
+function mapStateToProps(state) {
   return {
-    addToCart: (payload) => dispatch(addToCart(payload)),
+    favoriteProducts: state.favorites.products,
   };
 }
 
-export default connect(null, mapDispatchToProps)(Product);
+function mapDispatchToProps(dispatch) {
+  return {
+    addToCart: (payload) => dispatch(addToCart(payload)),
+    addToFavorites: (payload) => dispatch(addToFavorites(payload)),
+    removeFromFavorites: (payload) => dispatch(removeFromFavorites(payload)),
+  };
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Product);

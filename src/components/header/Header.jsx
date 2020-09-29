@@ -5,6 +5,8 @@ import { ReactComponent as ShoppingCart } from "../../assets/icons/shopping-cart
 import "./Header.css";
 import { connect } from "react-redux";
 import { logoutUser } from "../../redux/user/UserActions";
+// React Icons
+import { AiFillHeart } from "react-icons/ai";
 
 function Header(props) {
   return (
@@ -31,6 +33,12 @@ function Header(props) {
                 <p className="ml-1 mb-0">{props.numberOfProducts}</p>
               </Link>
             </div>
+            <div className="d-flex align-items-center">
+              <Link to="/favorite" className="d-flex">
+                <AiFillHeart className="ml-2" size="2rem" />
+                <p className="ml-1 mb-0">{props.numberOfFavoriteProducts}</p>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -42,6 +50,7 @@ function mapStateToProps(state) {
   return {
     numberOfProducts: state.cart.products.length,
     user: state.user.data,
+    numberOfFavoriteProducts: state.favorites.products.length,
   };
 }
 function mapDispatchToProps(dispatch) {

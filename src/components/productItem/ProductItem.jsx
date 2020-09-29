@@ -1,11 +1,23 @@
 import React from "react";
+// React Router
+import { Link } from "react-router-dom";
+// CSS
 import "./ProductItem.css";
+// Redux
 import { connect } from "react-redux";
 import { addToCart } from "../../redux/cart/CartActions";
-import { Link } from "react-router-dom";
+import {
+  addToFavorites,
+  removeFromFavorites,
+} from "../../redux/favorites/FavoritesActions";
+// React Icons
+import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 
 function ProductItem(props) {
-  const { name, price, currency, image, id } = props;
+  const { name, price, currency, image, id, favoriteProducts } = props;
+  const foundProduct = favoriteProducts.find(
+    (favoriteProduct) => favoriteProduct.id === id
+  );
 
   return (
     <div className="product-item col-12 col-md-4 mb-3 d-flex flex-column align-items-center">
@@ -33,14 +45,51 @@ function ProductItem(props) {
       >
         Adaugă în coș
       </button>
+      <div className="favorites-btn-container">
+        {!foundProduct ? (
+          <AiOutlineHeart
+            className="favorites-btn"
+            size="2rem"
+            color="#ff0f0f"
+            onClick={() =>
+              props.addToFavorites({
+                id,
+                name,
+                price,
+                currency,
+                image,
+              })
+            }
+          />
+        ) : (
+          <AiFillHeart
+            className="favorites-btn"
+            size="2rem"
+            color="#ff0f0f"
+            onClick={() =>
+              props.removeFromFavorites({
+                id,
+              })
+            }
+          />
+        )}
+      </div>
     </div>
   );
+}
+
+function mapStateToProps(state) {
+  return {
+    favoriteProducts: state.favorites.products,
+  };
 }
 
 function mapDispatchToProps(dispatch) {
   return {
     addToCart: (product) => dispatch(addToCart(product)),
+    addToFavorites: (product) => dispatch(addToFavorites(product)),
+    removeFromFavorites: (product) => dispatch(removeFromFavorites(product)),
   };
 }
 
-export default connect(null, mapDispatchToProps)(ProductItem);
+export default connect(mapStateToProps, mapDispatchToProps)(ProductItem);

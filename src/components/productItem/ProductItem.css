@@ -1,4 +1,15 @@
+.product-item {
+  position: relative;
+}
+
 .product-item img {
-    max-width: 250px;
-    max-height: 250px;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.favorites-btn-container {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 40px;
 }
