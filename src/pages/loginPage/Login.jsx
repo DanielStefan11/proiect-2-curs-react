@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/logo-2.png";
 import { ReactComponent as Google } from "../../assets/icons/google.svg";
 import "./Login.css";
 import { connect } from "react-redux";
-import { loginUser } from "../../redux/user/UserActions";
+import { loginUser, loginWithFacebook } from "../../redux/user/UserActions";
+// React Icons
+import { FaFacebook } from "react-icons/fa";
 
 class Login extends React.Component {
   componentDidUpdate(prevProps) {
@@ -30,6 +32,13 @@ class Login extends React.Component {
           <Google className="w-50 mr-3" />
           <span className="text-nowrap">Loghează-te cu Google</span>
         </button>
+        <button
+          className="btn btn-outline-dark d-flex align-items-center py-2 mt-3"
+          onClick={() => this.props.signInWithFacebook()}
+        >
+          <FaFacebook className="w-50 mr-1.8" size="2.5rem" color="#0D88F0" />
+          <span className="text-nowrap">Loghează-te cu Facebook</span>
+        </button>
       </div>
     );
   }
@@ -44,6 +53,7 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
   return {
     signInWithGoogle: () => dispatch(loginUser()),
+    signInWithFacebook: () => dispatch(loginWithFacebook()),
   };
 }
 

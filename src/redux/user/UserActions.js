@@ -3,7 +3,11 @@ import {
   UPDATE_USER_DATA,
   UPDATE_USER_ERROR,
 } from "./UserConstants";
-import { signInWithGoogle, signOut } from "../../apis/firebase/firebase";
+import {
+  signInWithGoogle,
+  signInWithFacebook,
+  signOut,
+} from "../../apis/firebase/firebase";
 
 function startLoading() {
   return {
@@ -30,9 +34,27 @@ export function loginUser() {
     signInWithGoogle()
       .then((userData) => {
         dispatch(updateUserData(userData.user));
+        console.log("Logged with Google");
       })
       .catch((error) => {
         dispatch(updateUserError(error));
+        console.log("Failed to login with Google");
+      });
+  };
+}
+
+export function loginWithFacebook() {
+  return (dispatch) => {
+    dispatch(startLoading());
+
+    signInWithFacebook()
+      .then((userData) => {
+        dispatch(updateUserData(userData.user));
+        console.log("Logged with Facebook");
+      })
+      .catch((error) => {
+        dispatch(updateUserError(error));
+        console.log("Failed to login with Facebook");
       });
   };
 }
