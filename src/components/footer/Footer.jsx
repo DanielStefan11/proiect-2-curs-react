@@ -7,6 +7,9 @@ import { ReactComponent as LinkedIn } from "../../assets/icons/linkedin.svg";
 import "./Footer.css";
 
 function Footer() {
+  const date = new Date();
+  const year = date.getFullYear();
+
   return (
     <footer className="pt-3 mt-3 bg-light">
       <div className="container-fluid container-min-max-width d-flex justify-content-between">
@@ -18,33 +21,35 @@ function Footer() {
         <div className="footer-group">
           <h3 className="h5">Contactează-mă:</h3>
           <p className="m-0">
-            <a href="mailto:razvan.cirlugea@gmail.com">
+            <a href="mailto:dannielstefan592@gmail.com">
               <Mail className="mr-1 mb-1 footer-icon" />
-              razvan.cirlugea@gmail.com
+              dannielstefan592@gmail.com
             </a>
           </p>
           <p className="m-0">
             <Phone className="mr-1 footer-icon" />
-            +40728998166
+            +4076645****
           </p>
         </div>
         <div className="footer-group">
           <h3 className="h5">Contactează-mă:</h3>
           <p className="m-0">
-            <a href="https://github.com/razvancir96">
+            <a href="https://github.com/DanielStefan11">
               <GitHub className="mr-1 mb-1 footer-icon" />
-              razvancir96
+              DanielStefan11
             </a>
           </p>
           <p className="m-0">
-            <a href="https://www.linkedin.com/in/razvancirlugea/">
+            <a href="https://www.linkedin.com/in/daniel-%C8%99tefan-c%C4%83lin-4359ba182/">
               <LinkedIn className="mr-1 footer-icon" />
-              razvancirlugea
+              Daniel Ștefan Călin
             </a>
           </p>
         </div>
       </div>
-      <div className="text-center py-3">&copy; Răzvan Cîrlugea, 2019</div>
+      <div className="text-center py-3">
+        &copy; Daniel Ștefan Călin, 2020 - {year}
+      </div>
     </footer>
   );
 }

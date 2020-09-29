@@ -1,236 +1,224 @@
 {
-    "shoes": {
-        "items": [
-            {
-                "id": 1,
-                "name": "Sneakerși piele Massimo Dutti",
-                "price": 135,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/Rz8lVQa.jpg",
-                "size": 45,
-                "colour": "Negru",
-                "material": "Piele",
-                "brand": "Massimo Dutti",
-                "description": "Sneakerși din piele cu talpă inițial albă, din colecția de toamnă-iarnă 2019, Massimo Dutti."
-            },
-            {
-                "id": 2,
-                "name": "Teniși negri Polo Ralph Lauren",
-                "price": 100,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/Og3Oh24.jpg",
-                "size": 45,
-                "colour": "Negru",
-                "material": "Pânză",
-                "brand": "Polo Ralph Lauren",
-                "description": "Teniși din pânză cu talpă inițial albă, din colecția de primăvară-vară 2019, Fashion Days."
-            },
-            {
-                "id": 3,
-                "name": "Ghete din piele maro Massimo",
-                "price": 185,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/zoqSu87.jpg",
-                "size": 45,
-                "colour": "Maro",
-                "material": "Piele",
-                "brand": "Massimo Dutti",
-                "description": "Ghete maro din piele, din colecția de toamnă-iarnă 2017, Massimo Dutti."
-            }
-        ],
-        "image": "https://i.imgur.com/X0qldXO.jpg",
-        "name": "Încălțăminte",
-        "description": "Ghete, pantofi, sneakerși: finețe garantată!"
-    },
-    "sweaters": {
-        "items": [
-            {
-                "id": 4,
-                "name": "Pulovăr finuț cu guler",
-                "price": 95,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/6afzuEr.jpg",
-                "size": "L",
-                "colour": "Maro",
-                "material": "Cașmir",
-                "brand": "DS Damat",
-                "description": "Pulovăr din cașmir, slim fit, colecția toamnă-iarnă 2019, DS Damat."
-            },
-            {
-                "id": 5,
-                "name": "Pulovăr multicolor",
-                "price": 105,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/s0VytKc.jpg",
-                "size": "L",
-                "colour": "Multicolor",
-                "material": "Bumbac",
-                "brand": "McNeal",
-                "description": "Pulovăr multicolor, colecția toamnă-iarnă 209, McNeal."
-            },
-            {
-                "id": 6,
-                "name": "Pulovăr călduros și frumos",
-                "price": 165,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/BWGgzlK.jpg",
-                "size": "L",
-                "colour": "Multicolor",
-                "material": "Lână",
-                "brand": "SELECTED",
-                "description": "Pulovăr din lână, în carouri, colecția toamnă-iarnă 2019, SELECTED."
-            },
-            {
-                "id": 7,
-                "name": "Pulovăr din lână",
-                "price": 160,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/dTcMbHT.jpg",
-                "size": "L",
-                "colour": "Crem",
-                "material": "Lână",
-                "brand": "Massimo Dutti",
-                "description": "Pulovăr din lână cu model, colecția toamnă-iarnă 2019, Massimo Dutti."
-            }
-        ],
-        "image": "https://i.imgur.com/SZU7liE.jpg",
-        "name": "Pulovere",
-        "description": "Pulovărașe elegănțele, slim, clasă superioară."
-    },
-    "pants": {
-        "items": [
-            {
-                "id": 8,
-                "name": "Blugi bleumarin slim fit",
-                "price": 35,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/VhpATO8.jpg",
-                "size": "34",
-                "colour": "Bleumarin închis",
-                "material": "Blug",
-                "brand": "DS Damat",
-                "description": "Blugi bleumarin, slim fit, colecția primăvară-vară 2019, DS Damat."
-            },
-            {
-                "id": 9,
-                "name": "Blugi negri slim fit",
-                "price": 40,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/weiI07t.jpg",
-                "size": "34",
-                "colour": "Negru-gri",
-                "material": "Blug",
-                "brand": "DS Damat",
-                "description": "Blugi negri, slim fit, colecția toamnă-iarnă 2019, DS Damat."
-            }
-        ],
-        "image": "https://i.imgur.com/srQCDRN.jpg",
-        "name": "Pantaloni/blugi",
-        "description": "Jeanși și pantaloni pentru baieții care și-o ard patroni!"
-    },
-    "jackets": {
-        "items": [
-            {
-                "id": 10,
-                "name": "Haină lungă din lână virgină",
-                "price": 210,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/IXrZitQ.jpg",
-                "size": "L",
-                "colour": "Gri închis",
-                "material": "Lână virgină",
-                "brand": "Peek and Cloppenburg",
-                "description": "Haină lungă din lână virgină, colecția toamnă-iarnă 2018, Peek and Cloppenburg."
-            },
-            {
-                "id": 11,
-                "name": "Geacă bleumarin cu glugă detașabilă",
-                "price": 250,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/eCZd7PU.jpg",
-                "size": "L",
-                "colour": "Bleumarin",
-                "material": "Poliester",
-                "brand": "DS Damat",
-                "description": "Geacă bleumarin cu glugă detașabilă, colecția toamnă-iarnă 2019, DS Damat."
-            }
-        ],
-        "image": "https://i.imgur.com/81I6Oab.jpg",
-        "name": "Geci/Haine",
-        "description": "Confortabile, călduroase și nu arăți ca un cartof!"
-    },
-    "tshirts": {
-        "items": [
-            {
-                "id": 12,
-                "name": "Tricou în dungi",
-                "price": 90,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/BWvzCwB.jpg",
-                "size": "L",
-                "colour": "Multicolor",
-                "material": "Bumbac",
-                "brand": "Lacoste",
-                "description": "Tricou în dungi, colecția primăvară-vară 2019, Lacoste."
-            },
-            {
-                "id": 13,
-                "name": "Tricou de ping pong",
-                "price": 110,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/4BbF4TO.jpg",
-                "size": "L",
-                "colour": "Roșu",
-                "material": "Poliester",
-                "brand": "Li Ning",
-                "description": "Tricou de ping pong cu imprimeu cu dragon, purtat de jucatorii naționalei chinei în 2013."
-            },
-            {
-                "id": 14,
-                "name": "Tricou original BVB cu autograf",
-                "price": 1909,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/etIsbHV.jpg",
-                "size": "L",
-                "colour": "Galben-Negru",
-                "material": "Poliester",
-                "brand": "Puma",
-                "description": "Tricoul purtat de Borussia Dortmund în sezonul competițional 2018-2019, cu numarul 7 și numele 'SANCHO'. Tricoul este semnat de portarul Borussiei, Roman Burki."
-            }
-        ],
-        "image": "https://i.imgur.com/l27WtFL.jpg",
-        "name": "Tricouri",
-        "description": "Și de băiețeală și de sport."
-    },
-    "accesories": {
-        "items": [
-            {
-                "id": 15,
-                "name": "Fular TJ cu două fețe",
-                "price": 85,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/rSVUiLO.jpg",
-                "size": "Universal",
-                "colour": "Gri-Bleumarin",
-                "material": "Cașmir",
-                "brand": "Trussardi Jeans",
-                "description": "Fular cu imprimeu, din colecția toamnă-iarnă 2018, Trussardi Jeans."
-            },
-            {
-                "id": 16,
-                "name": "Mănuși din piele",
-                "price": 60,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/LbjGaZ1.jpg",
-                "size": "L",
-                "colour": "Negru",
-                "material": "Piele",
-                "brand": "DS Damat",
-                "description": "Mănuși din piele, cu model, din colecția toamnă-iarnă 2018, DS Damat."
-            }
-        ],
-        "image": "https://i.imgur.com/qw3wDj8.jpg",
-        "name": "Accesorii",
-        "description": "Fulare, căciuli, mănuși: nu mai sta pe gânduri, cumpără-le acuși!"
-    }
+  "laptops": {
+    "items": [
+      {
+        "id": 1,
+        "name": "Apple MackBook Pro 16 inch",
+        "price": 14500,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/8Szu50E.jpg",
+        "brand": "Apple",
+        "colour": "Silver",
+        "description": "Procesor Intel Core i9 2.30 GHz, 16GB, 1TB SSD, Radeon Pro 5500M 4GB, Silver, INT KB"
+      },
+      {
+        "id": 2,
+        "name": "ASUS ZenBook UM431DA",
+        "price": 4000,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/wN3JUnE.jpg",
+        "brand": "Asus",
+        "colour": "Blue Metal",
+        "description": "Procesor AMD Ryzen 5 3500U pana la 3.70 GHz, 14 inch, Full HD, 8GB, 1TB SSD, AMD Radeon™ Vega 8 Graphics, Endless OS, Utopia Blue Metal"
+      },
+      {
+        "id": 3,
+        "name": "Lenovo ThinkBook 15-IIL",
+        "price": 3500,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/kMRpUnI.jpg",
+        "brand": "Lenovo",
+        "colour": "Mineral Grey",
+        "description": "Processor Intel® Core™ i7-1065G7 up to 3.90 GHz, 15.6 inch, Full HD, IPS, 8GB, 512GB SSD, Intel Iris Plus Graphics , Free DOS, Mineral Grey"
+      },
+      {
+        "id": 4,
+        "name": "Huawei MateBook D 15",
+        "price": 3000,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/b6vGWYV.jpg",
+        "brand": "Huawei",
+        "colour": "Silver",
+        "description": "Procesor AMD Ryzen 5 3500U (4M Cache, up to 3.70 GHz), 8GB DDR4, 256GB SSD, Radeon Vega 8, Win 10 Home, Silver"
+      }
+    ],
+    "image": "https://i.imgur.com/POcOu2g.jpg",
+    "name": "Laptopuri",
+    "description": "Apple, Asus, Lenovo și alte branduri de top"
+  },
+  "smartphones": {
+    "items": [
+      {
+        "id": 5,
+        "name": "Samsung Galaxy S10 Plus",
+        "price": 3000,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/CWVZeXD.jpg",
+        "brand": "Samsung",
+        "colour": "Prism Blue",
+        "description": "Octa Core, 128GB, 8GB RAM, Dual SIM, 4G, 5-Camere, Prism Blue"
+      },
+      {
+        "id": 6,
+        "name": "Samsung Galaxy S20 Plus",
+        "price": 3700,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/LU6DpF3.jpg",
+        "brand": "Samsung",
+        "colour": "Cosmic Grey",
+        "description": "5G Edition, Octa Core, 128GB, 12GB RAM, Dual SIM, 5-Camere, Cosmic Grey"
+      },
+      {
+        "id": 7,
+        "name": "iPhone 11 Pro",
+        "price": 4700,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/B2NYlNu.jpg",
+        "brand": "Apple",
+        "colour": "Silver",
+        "description": "64GB stocare, culoare Silver"
+      },
+      {
+        "id": 8,
+        "name": "Google Pixel 4 XL",
+        "price": 3400,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/ZUp74rN.jpg",
+        "colour": "Negru",
+        "brand": "Google",
+        "description": "Octa Core, 64GB, 6GB RAM, Single SIM, 4G, 4-Camere, Just Black"
+      }
+    ],
+    "image": "https://i.imgur.com/VmzUPNq.jpg",
+    "name": "Telefoane",
+    "description": "Fie că vrei Android sau iOS, la noi găsești ceea ce ai nevoie"
+  },
+  "PCs": {
+    "items": [
+      {
+        "id": 9,
+        "name": "ASUS D340MC",
+        "price": 2800,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/kyDKH5d.jpg",
+        "colour": "Negru",
+        "brand": "Asus",
+        "description": "Procesor Intel Core i5-9500 3.0GHz Coffee Lake, 8GB RAM, 512GB SSD, UHD 630, Endless OS"
+      },
+      {
+        "id": 10,
+        "name": "Sistem All-In-One ASUS V222FAK",
+        "price": 3000,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/OPMLDMK.jpg",
+        "colour": "Negru, silver",
+        "brand": "Asus",
+        "description": "21.5 inch FHD, Procesor Intel® i5-10210U 1.6GHz Comet Lake, 8GB RAM, 256GB SSD, UHD Graphics, Camera Web, EndlessOS"
+      }
+    ],
+    "image": "https://i.imgur.com/NxBBZUm.jpg",
+    "name": "PC-uri",
+    "description": "Dacă îți place gaming-ul, alege PC-ul potrivit"
+  },
+  "accesories": {
+    "items": [
+      {
+        "id": 11,
+        "name": "Căști JBL JR300",
+        "price": 130,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/9GHQ3dp.jpg",
+        "colour": "Ice Blue",
+        "brand": "JBL",
+        "description": "Căști over-the-ear cu fir"
+      },
+      {
+        "id": 12,
+        "name": "Tastatură Logitech K120",
+        "price": 52,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/i5g5JUe.jpg",
+        "colour": "negru",
+        "brand": "Logitech",
+        "description": "Tastatură business cu fir pe USB"
+      }
+    ],
+    "image": "https://i.imgur.com/J3yyKI3.jpg",
+    "name": "Periferice",
+    "description": "Căști, tastaturi, mouse-uri și alte accesorii"
+  },
+  "smarttvs": {
+    "items": [
+      {
+        "id": 13,
+        "name": "Televizor LED Samsung Smart",
+        "price": 1700,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/YlrTBG7.jpg",
+        "colour": "Negru",
+        "brand": "Samsung",
+        "description": "Televizor LED Samsung Smart TV 50RU7102 Seria RU7102 125cm negru 4K UHD HDR"
+      },
+      {
+        "id": 14,
+        "name": "Televizor LED Philips Smart TV",
+        "price": 2600,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/jLj3dPE.jpg",
+        "colour": "Argintiu",
+        "brand": "Philips",
+        "description": "Televizor LED Philips Smart TV Android 43PUS8505/12 Seria PUS8505/12 108cm argintiu 4K UHD HDR Ambilight cu 3 laturi"
+      },
+      {
+        "id": 15,
+        "name": "Televizor LED LG Smart TV 4K",
+        "price": 4000,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/oQKWVgY.jpg",
+        "colour": "Gri, negru",
+        "brand": "LG",
+        "description": "Televizor LED LG Smart TV 55UN80003LA Seria UN8000 139cm gri-negru 4K UHD HDR"
+      }
+    ],
+    "image": "https://i.imgur.com/cmZnzUw.jpg",
+    "name": "Televizoare smart",
+    "description": "Alege smartTv-ul potrivit pentru camera ta"
+  },
+  "cameras": {
+    "items": [
+      {
+        "id": 16,
+        "name": "Aparat foto D-SLR Nikon D7500",
+        "price": 5800,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/1H5uhkH.jpg",
+        "colour": "Negru",
+        "brand": "Nikon",
+        "description": "Aparat foto D-SLR Nikon D7500 Negru + Obiectiv AF-S DX 18-140mm f/3.5-5.6G VR Nikkor"
+      },
+      {
+        "id": 17,
+        "name": "Aparat foto Mirrorless Nikon Z50",
+        "price": 5500,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/YObsOOj.jpg",
+        "colour": "Negru",
+        "brand": "Nikon",
+        "description": "Aparat foto Mirrorless Nikon Z50 Dual Zoom Kit 16-50mm VR + 50-250mm VR"
+      },
+      {
+        "id": 18,
+        "name": "GoPro HERO 8",
+        "price": 2000,
+        "currency": "LEI",
+        "image": "https://i.imgur.com/cx6aQcO.png",
+        "colour": "Negru",
+        "brand": "GoPro",
+        "description": "GoPro HERO 8 Black Camera de Actiune 4K60"
+      }
+    ],
+    "image": "https://i.imgur.com/PeYI36n.jpg",
+    "name": "Camere foto și video",
+    "description": "Surprinde locuri și momente cu cele mai bune camere foto și video"
+  }
 }
