@@ -26,8 +26,12 @@ function ProductItem(props) {
         className="d-flex flex-column align-items-center"
       >
         <img src={image} alt="productPhoto" className="mb-2" />
-        <p className="mb-1 text-center">{name}</p>
-        <p className="text-center">{price + currency}</p>
+        <p className="mb-1 text-center h5">
+          <strong>{name}</strong>{" "}
+        </p>
+        <p className="text-center h5">
+          {price} {currency}
+        </p>
       </Link>
       <button
         className="btn btn-outline-dark"

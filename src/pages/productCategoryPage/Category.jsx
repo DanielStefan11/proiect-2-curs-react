@@ -27,7 +27,7 @@ class Category extends Component {
     return (
       <Layout>
         <div className="container-fluid container-min-max-width">
-          <h2>{this.state.category.name}</h2>
+          <h2 className="text-center my-5">{this.state.category.name}</h2>
           <ProductList products={this.state.items} />
         </div>
       </Layout>

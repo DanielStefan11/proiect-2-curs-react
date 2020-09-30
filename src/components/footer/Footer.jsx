@@ -37,13 +37,21 @@ function Footer() {
         <div className="footer-group">
           <h3 className="h5">Contactează-mă:</h3>
           <p className="m-0">
-            <a href="https://github.com/DanielStefan11">
+            <a
+              href="https://github.com/DanielStefan11"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <GitHub className="mr-1 mb-1 footer-icon" />
               DanielStefan11
             </a>
           </p>
           <p className="m-0">
-            <a href="https://www.linkedin.com/in/daniel-%C8%99tefan-c%C4%83lin-4359ba182/">
+            <a
+              href="https://www.linkedin.com/in/daniel-%C8%99tefan-c%C4%83lin-4359ba182/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <LinkedIn className="mr-1 footer-icon" />
               Daniel Ștefan Călin
             </a>
