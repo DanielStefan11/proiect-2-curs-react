@@ -1,6 +1,10 @@
 import React from "react";
+// CSS
 import "./App.css";
+import "./utils/utility-classes.css";
+// React Router
 import { Switch, Route } from "react-router-dom";
+// Pages
 import Home from "./pages/homePage/Home";
 import About from "./pages/aboutPage/About";
 import Login from "./pages/loginPage/Login";
@@ -8,9 +12,8 @@ import Page404 from "./pages/page404/Page404";
 import Category from "./pages/productCategoryPage/Category";
 import Cart from "./pages/cartPage/Cart";
 import Favorites from "./pages/favoriteProducts/Favorites";
-import TermsAndConditions from "./pages/terms&conditionsPage/TermsAndConditions";
-import "./utils/utility-classes.css";
 import Product from "./pages/productPage/Product";
+import TermsAndConditions from "./pages/terms&conditionsPage/TermsAndConditions";
 
 function App() {
   return (

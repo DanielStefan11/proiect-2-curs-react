@@ -1,8 +1,12 @@
 import React from "react";
+// React Router
 import { Link } from "react-router-dom";
+// Images & icons
 import Logo from "../../assets/images/logo-2.png";
 import { ReactComponent as ShoppingCart } from "../../assets/icons/shopping-cart.svg";
+// CSS
 import "./Header.css";
+// Redux
 import { connect } from "react-redux";
 import { logoutUser } from "../../redux/user/UserActions";
 // React Icons

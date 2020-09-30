@@ -1,9 +1,14 @@
 import React from "react";
+// Components
 import Layout from "../../components/layout/Layout";
+// Redux
 import { connect } from "react-redux";
 import { removeFromCart } from "../../redux/cart/CartActions";
+// React Router
 import { Link } from "react-router-dom";
+// CSS
 import "./Cart.css";
+// Icons
 import { ReactComponent as Close } from "../../assets/icons/close.svg";
 
 function Cart(props) {

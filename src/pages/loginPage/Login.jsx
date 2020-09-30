@@ -1,8 +1,12 @@
 import React from "react";
+// React Router
 import { Link } from "react-router-dom";
+// Images
 import Logo from "../../assets/images/logo-2.png";
 import { ReactComponent as Google } from "../../assets/icons/google.svg";
+// CSS
 import "./Login.css";
+// Redux
 import { connect } from "react-redux";
 import { loginUser, loginWithFacebook } from "../../redux/user/UserActions";
 // React Icons

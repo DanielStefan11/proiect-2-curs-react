@@ -1,9 +1,12 @@
 import React from "react";
+// React Router
 import { Link } from "react-router-dom";
+// Icons
 import { ReactComponent as Phone } from "../../assets/icons/phone.svg";
 import { ReactComponent as Mail } from "../../assets/icons/mail.svg";
 import { ReactComponent as GitHub } from "../../assets/icons/github.svg";
 import { ReactComponent as LinkedIn } from "../../assets/icons/linkedin.svg";
+// CSS
 import "./Footer.css";
 
 function Footer() {

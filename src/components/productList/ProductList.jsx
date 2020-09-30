@@ -1,4 +1,5 @@
 import React from "react";
+// Components
 import ProductItem from "../productItem/ProductItem";
 
 function ProductList(props) {

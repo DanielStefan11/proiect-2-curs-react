@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import Layout from "../../components/layout/Layout";
+// Data
 import products from "../../utils/products.json";
+// Components
+import Layout from "../../components/layout/Layout";
 import ProductList from "../../components/productList/ProductList";
 
 class Category extends Component {

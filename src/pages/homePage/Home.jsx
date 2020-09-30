@@ -1,6 +1,8 @@
 import React from "react";
-import Layout from "../../components/layout/Layout";
+// Data
 import products from "../../utils/products.json";
+// Components
+import Layout from "../../components/layout/Layout";
 import HomeCategory from "../../components/categoryPreview/HomeCategory";
 
 class Home extends React.Component {
