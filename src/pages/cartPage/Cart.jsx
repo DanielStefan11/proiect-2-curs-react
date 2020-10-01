@@ -8,8 +8,6 @@ import { removeFromCart } from "../../redux/cart/CartActions";
 import { Link } from "react-router-dom";
 // CSS
 import "./Cart.css";
-// Icons
-import { ReactComponent as Close } from "../../assets/icons/close.svg";
 
 function Cart(props) {
   const totalSum = (products) => {
@@ -26,7 +24,7 @@ function Cart(props) {
       >
         {props.products.length ? (
           <div className="w-100">
-            <div className="d-flex justify-content-between text-center h4 text-bold">
+            <div className="cart-info d-flex justify-content-between text-center h4 text-bold">
               <p className="w-25">Produs</p>
               <p className="w-25">Pret</p>
               <p className="w-25">Cantitate</p>
@@ -50,11 +48,12 @@ function Cart(props) {
                     <p className="mr-2">
                       {product.price * product.quantity} {product.currency}
                     </p>
-                    <div
+                    <button
+                      className="btn btn-outline-danger"
                       onClick={() => props.removeFromCart({ id: product.id })}
                     >
-                      <Close />
-                    </div>
+                      Șterge
+                    </button>
                   </div>
                 </div>
               );
@@ -76,7 +75,9 @@ function Cart(props) {
           <div className="d-flex flex-column align-items-center">
             <p className="h3">Nu ai produse în coș!</p>
             <Link to="/">
-              <button className="btn btn-outline-dark">Înapoi la prima pagină</button>
+              <button className="btn btn-outline-dark">
+                Înapoi la prima pagină
+              </button>
             </Link>
           </div>
         )}

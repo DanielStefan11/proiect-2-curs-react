@@ -7,8 +7,6 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { removeFromFavorites } from "../../redux/favorites/FavoritesActions";
 import { addToCart } from "../../redux/cart/CartActions";
-// Icons
-import { ReactComponent as Close } from "../../assets/icons/close.svg";
 // CSS
 import "./Favorites.css";
 
@@ -26,29 +24,22 @@ function Favorites(props) {
               return (
                 <div
                   key={product.id}
-                  className="d-flex justify-content-between mt-3"
+                  className="favorite-product d-flex justify-content-between mt-3"
                 >
-                  <div className="d-flex align-items-center">
+                  <div className="favorite-product-info d-flex align-items-center">
                     <img
                       src={product.image}
                       alt="Produs favorit"
                       className="mr-3"
                     />
-                    <h3>{product.name}</h3>
-                  </div>
-                  <div className="d-flex align-items-center">
-                    <h3 className="mr-3">
-                      {product.price} {product.currency}
-                    </h3>
-                    <div
-                      className="delete-btn"
-                      onClick={() =>
-                        props.removeFromFavorites({ id: product.id })
-                      }
-                    >
-                      Șterge
-                      <Close />
+                    <div>
+                      <h3>{product.name}</h3>
+                      <h4 className="mr-3 text-primary font-weight-bold">
+                        {product.price} {product.currency}
+                      </h4>
                     </div>
+                  </div>
+                  <div className="favorite-product-btns d-flex align-items-center">
                     <button
                       className="btn btn-outline-dark"
                       onClick={() =>
@@ -58,6 +49,14 @@ function Favorites(props) {
                       }
                     >
                       Adaugă în coș
+                    </button>
+                    <button
+                      className="btn btn-outline-danger ml-3"
+                      onClick={() =>
+                        props.removeFromFavorites({ id: product.id })
+                      }
+                    >
+                      Șterge
                     </button>
                   </div>
                 </div>

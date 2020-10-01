@@ -44,14 +44,14 @@ class Product extends React.Component {
 
     return (
       <Layout>
-        <div className="product-page container-fluid container-min-max-width">
-          <h1 className="my-5 h2">{product.name}</h1>
+        <div className="product-page container-fluid container-min-max-width mb-5">
+          <h1 className="my-5 h2 text-center">{product.name}</h1>
           <div className="product-info d-flex">
             <div className="image-wrapper d-flex mr-5">
               <img src={product.image} alt="Product presentation" />
             </div>
             <div className="product-details">
-              <p className="h3 text-danger">
+              <p className="h3 text-primary font-weight-bold">
                 {product.price} {product.currency}
               </p>
               <div className="btn-container d-flex flex-column">
@@ -82,7 +82,7 @@ class Product extends React.Component {
                   </button>
                 ) : (
                   <button
-                    className="btn btn-dark mb-4 font-weight-bold"
+                    className="btn btn-danger mb-4 font-weight-bold"
                     onClick={() => {
                       this.props.removeFromFavorites({ id: product.id });
                     }}

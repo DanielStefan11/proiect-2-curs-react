@@ -16,23 +16,16 @@
   margin-right: 1rem;
 }
 
-.delete-btn:hover {
-  color: rgb(230, 1, 1);
-  text-decoration: underline;
-}
+@media (max-width: 768px) {
+  .favorite-product {
+    flex-direction: column;
+  }
 
-.back-btn {
-  width: 100px;
-  background-color: transparent;
-  border: none;
-  color: #8580d9;
-  position: absolute;
-  top: 0;
-  padding: 10px;
-}
+  .favorite-product-info {
+    flex-direction: column;
+  }
 
-.back-btn:hover {
-  border: 1px solid #8580d9;
-  border-radius: 30px;
-  outline: none;
+  .favorite-product-btns {
+    justify-content: center;
+  }
 }

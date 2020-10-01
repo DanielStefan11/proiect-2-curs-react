@@ -29,12 +29,12 @@ function ProductItem(props) {
         <p className="mb-1 text-center h5">
           <strong>{name}</strong>{" "}
         </p>
-        <p className="text-center h5">
+        <p className="text-center text-primary font-weight-bold h5">
           {price} {currency}
         </p>
       </Link>
       <button
-        className="btn btn-outline-dark"
+        className="btn btn-outline-dark mt-2"
         onClick={() =>
           props.addToCart({
             product: {

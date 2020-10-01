@@ -1,17 +1,28 @@
-footer svg {
-    width: 24px;
-    height: 24px;
+footer {
+  background-color: #46a049;
+  color: #fff;
 }
 
-/* Adaugam stilizare pe mobile */
-/* MEDIA cu max-width => stilizarea din interior se aplică doar pentru ecrane cu dimensiuni
-de maxim 768px. */
-@media (max-width: 768px) {
-    footer > div {
-        flex-direction: column;
-    }
+footer a {
+  color: #fff;
+}
 
-    footer .footer-group{
-        margin-bottom: 1.5rem;
-    }
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer svg {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 768px) {
+  footer > div {
+    flex-direction: column;
+  }
+
+  footer .footer-group {
+    margin-bottom: 1.5rem;
+  }
 }

@@ -14,7 +14,7 @@ function Footer() {
   const year = date.getFullYear();
 
   return (
-    <footer className="pt-3 mt-3 bg-light">
+    <footer className="pt-3 mt-3">
       <div className="container-fluid container-min-max-width d-flex justify-content-between">
         <div className="footer-group d-flex flex-column">
           <h3 className="h5">Link-uri rapide:</h3>
