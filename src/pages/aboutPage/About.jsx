@@ -1,6 +1,7 @@
 import React from "react";
 // Components
 import Layout from "../../components/layout/Layout";
+import ScrollButton from "../../components/scrollButton/ScrollButton";
 // Images
 import LaptopImg from "../../assets/images/experience.jpg";
 import PCImg from "../../assets/images/pc-setup.jpg";
@@ -11,7 +12,8 @@ import { ImPriceTags, ImCheckboxChecked } from "react-icons/im";
 import "./About.css";
 import "./AboutMobile.css";
 
-function About() {
+function About(props) {
+  const { scrollBtnVizibility, handleScrollToTop } = props;
   return (
     <Layout>
       <div className="about-page d-flex flex-column align-items-center">
@@ -126,6 +128,10 @@ function About() {
             </div>
           </div>
         </div>
+        <ScrollButton
+          scrollBtnVizibility={scrollBtnVizibility}
+          handleScrollToTop={handleScrollToTop}
+        />
       </div>
     </Layout>
   );

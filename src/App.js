@@ -15,22 +15,86 @@ import Favorites from "./pages/favoriteProducts/Favorites";
 import Product from "./pages/productPage/Product";
 import TermsAndConditions from "./pages/terms&conditionsPage/TermsAndConditions";
 
-function App() {
-  return (
-    <div className="app">
-      <Switch>
-        <Route path="/login" component={Login} />
-        <Route exact path="/" component={Home} />
-        <Route path="/cart" component={Cart} />
-        <Route path="/favorite" component={Favorites} />
-        <Route path="/about" component={About} />
-        <Route path="/category/:categoryName" component={Category} />
-        <Route path="/product/:productId" component={Product} />
-        <Route path="/termeni-si-conditii" component={TermsAndConditions} />
-        <Route path="*" component={Page404} />
-      </Switch>
-    </div>
-  );
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      scrollBtnVizibility: false,
+    };
+  }
+
+  componentDidMount() {
+    document.addEventListener("scroll", (e) => {
+      this.toggleVisibility();
+    });
+  }
+
+  toggleVisibility() {
+    if (window.pageYOffset > 200) {
+      this.setState({ scrollBtnVizibility: true });
+    } else {
+      this.setState({ scrollBtnVizibility: false });
+    }
+  }
+
+  handleScrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+
+  render() {
+    return (
+      <div className="app">
+        <Switch>
+          <Route path="/login" component={Login} />
+          <Route
+            exact
+            path="/"
+            render={() => (
+              <Home
+                scrollBtnVizibility={this.state.scrollBtnVizibility}
+                handleScrollToTop={() => this.handleScrollToTop()}
+              />
+            )}
+          />
+          <Route path="/cart" component={Cart} />
+          <Route path="/favorite" component={Favorites} />
+          <Route
+            path="/about"
+            render={() => (
+              <About
+                scrollBtnVizibility={this.state.scrollBtnVizibility}
+                handleScrollToTop={() => this.handleScrollToTop()}
+              />
+            )}
+          />
+          <Route
+            path="/category/:categoryName"
+            component={Category}
+            // render={() => (
+            //   <Category
+            //     scrollBtnVizibility={this.state.scrollBtnVizibility}
+            //     handleScrollToTop={() => this.handleScrollToTop()}
+            //   />
+            // )}
+          />
+          <Route path="/product/:productId" component={Product} />
+          <Route
+            path="/termeni-si-conditii"
+            render={() => (
+              <TermsAndConditions
+                scrollBtnVizibility={this.state.scrollBtnVizibility}
+                handleScrollToTop={() => this.handleScrollToTop()}
+              />
+            )}
+          />
+          <Route path="*" component={Page404} />
+        </Switch>
+      </div>
+    );
+  }
 }
 
 export default App;

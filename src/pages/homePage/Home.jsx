@@ -4,6 +4,7 @@ import products from "../../utils/products.json";
 // Components
 import Layout from "../../components/layout/Layout";
 import HomeCategory from "../../components/categoryPreview/HomeCategory";
+import ScrollButton from "../../components/scrollButton/ScrollButton";
 
 class Home extends React.Component {
   constructor() {
@@ -19,6 +20,8 @@ class Home extends React.Component {
   }
 
   render() {
+    const { scrollBtnVizibility, handleScrollToTop } = this.props;
+
     return (
       <Layout>
         <div className="container-fluid container-min-max-width">
@@ -33,6 +36,10 @@ class Home extends React.Component {
               />
             ))}
           </div>
+          <ScrollButton
+            scrollBtnVizibility={scrollBtnVizibility}
+            handleScrollToTop={() => handleScrollToTop()}
+          />
         </div>
       </Layout>
     );

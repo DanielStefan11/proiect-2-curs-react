@@ -1,8 +1,10 @@
 import React from "react";
 // Components
 import Layout from "../../components/layout/Layout";
+import ScrollButton from "../../components/scrollButton/ScrollButton";
 
-export default function TermsAndConditions() {
+export default function TermsAndConditions(props) {
+  const { scrollBtnVizibility, handleScrollToTop } = props;
   return (
     <Layout>
       <div className="container">
@@ -196,6 +198,10 @@ export default function TermsAndConditions() {
             eligendi? Perspiciatis, atque officia!
           </p>
         </div>
+        <ScrollButton
+          scrollBtnVizibility={scrollBtnVizibility}
+          handleScrollToTop={handleScrollToTop}
+        />
       </div>
     </Layout>
   );

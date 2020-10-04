@@ -4,6 +4,7 @@ import products from "../../utils/products.json";
 // Components
 import Layout from "../../components/layout/Layout";
 import ProductList from "../../components/productList/ProductList";
+// import ScrollButton from "../../components/scrollButton/ScrollButton";
 
 class Category extends Component {
   constructor(props) {
@@ -30,6 +31,10 @@ class Category extends Component {
           <h2 className="text-center my-5">{this.state.category.name}</h2>
           <ProductList products={this.state.items} />
         </div>
+        {/* <ScrollButton
+          scrollBtnVizibility={this.props.scrollBtnVizibility}
+          handleScrollToTop={this.props.handleScrollToTop}
+        /> */}
       </Layout>
     );
   }
