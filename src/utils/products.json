@@ -64,7 +64,7 @@
     ],
     "image": "https://i.imgur.com/POcOu2g.jpg",
     "name": "Laptopuri",
-    "description": "Apple, Asus, Lenovo și alte branduri de top"
+    "description": "Apple, Asus, Lenovo și altele"
   },
   "smartphones": {
     "items": [
@@ -131,7 +131,7 @@
     ],
     "image": "https://i.imgur.com/VmzUPNq.jpg",
     "name": "Telefoane",
-    "description": "Fie că vrei Android sau iOS, la noi găsești ceea ce ai nevoie"
+    "description": "Telefoane cu iOS și Android"
   },
   "PCs": {
     "items": [
@@ -198,7 +198,7 @@
     ],
     "image": "https://i.imgur.com/NxBBZUm.jpg",
     "name": "PC-uri",
-    "description": "Dacă îți place gaming-ul, alege PC-ul potrivit"
+    "description": "Office, gaming, all-in-one"
   },
   "accesories": {
     "items": [
@@ -265,7 +265,7 @@
     ],
     "image": "https://i.imgur.com/J3yyKI3.jpg",
     "name": "Periferice",
-    "description": "Căști, tastaturi, mouse-uri și alte accesorii"
+    "description": "Căști, tastaturi, mouse-uri, monitoare"
   },
   "smarttvs": {
     "items": [
@@ -332,7 +332,7 @@
     ],
     "image": "https://i.imgur.com/cmZnzUw.jpg",
     "name": "Televizoare smart",
-    "description": "Alege smartTv-ul potrivit pentru camera ta"
+    "description": "Samsung, Philips, LG etc."
   },
   "cameras": {
     "items": [
@@ -399,6 +399,6 @@
     ],
     "image": "https://i.imgur.com/PeYI36n.jpg",
     "name": "Camere foto și video",
-    "description": "Surprinde locuri și momente cu cele mai bune camere foto și video"
+    "description": "DSRL, mirrorless"
   }
 }

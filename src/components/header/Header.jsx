@@ -1,9 +1,8 @@
 import React from "react";
 // React Router
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 // Images & icons
 import Logo from "../../assets/images/logo-2.png";
-import { ReactComponent as ShoppingCart } from "../../assets/icons/shopping-cart.svg";
 // CSS
 import "./Header.css";
 // Redux
@@ -11,17 +10,49 @@ import { connect } from "react-redux";
 import { logoutUser } from "../../redux/user/UserActions";
 // React Icons
 import { AiFillHeart } from "react-icons/ai";
+import { FaShoppingCart } from "react-icons/fa";
 
 function Header(props) {
   return (
     <header className="border-bottom mb-3">
-      <div className="container-fluid container-min-max-width d-flex justify-content-between align-items-center">
+      <div className="menu-container container-fluid container-min-max-width d-flex justify-content-between align-items-center">
         <Link to="/" className="my-3">
           <img src={Logo} alt="Sirluggia Shop" className="logo" />
         </Link>
         <div>
           {props.user ? <p>Salut, {props.user.displayName}!</p> : null}
-          <div className="d-flex justify-content-end">
+          <div className="links-container d-flex justify-content-end">
+            <NavLink
+              exact
+              to="/"
+              activeStyle={{
+                fontWeight: "bold",
+                color: "#6A8ED9",
+              }}
+              className="h5 mr-3"
+            >
+              Acasă
+            </NavLink>
+            <NavLink
+              to="/about"
+              activeStyle={{
+                fontWeight: "bold",
+                color: "#6A8ED9",
+              }}
+              className="h5 mr-3"
+            >
+              Despre
+            </NavLink>
+            <NavLink
+              to="/contact"
+              activeStyle={{
+                fontWeight: "bold",
+                color: "#6A8ED9",
+              }}
+              className="h5 mr-3"
+            >
+              Contact
+            </NavLink>
             {props.user ? (
               <p className="logout h5" onClick={() => props.signOut()}>
                 Delogare
@@ -31,17 +62,23 @@ function Header(props) {
                 Logare
               </Link>
             )}
-            <div className="d-flex align-items-center">
-              <Link to="/cart" className="d-flex">
-                <ShoppingCart className="ml-2" />
-                <p className="ml-1 mb-0">{props.numberOfProducts}</p>
-              </Link>
-            </div>
-            <div className="d-flex align-items-center">
-              <Link to="/favorite" className="d-flex">
-                <AiFillHeart className="ml-2" size="2rem" />
-                <p className="ml-1 mb-0">{props.numberOfFavoriteProducts}</p>
-              </Link>
+            <div className="d-flex">
+              <div className="d-flex align-items-center">
+                <Link to="/cart" className="d-flex">
+                  <FaShoppingCart size="2rem" className="ml-2" />
+                  <p className="ml-1 mb-0">
+                    <strong>{props.numberOfProducts}</strong>
+                  </p>
+                </Link>
+              </div>
+              <div className="d-flex align-items-center">
+                <Link to="/favorite" className="d-flex">
+                  <AiFillHeart className="ml-2" size="2rem" />
+                  <p className="ml-1 mb-0">
+                    <strong>{props.numberOfFavoriteProducts}</strong>
+                  </p>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

@@ -67,7 +67,9 @@ function Favorites(props) {
           <div className="d-flex flex-column align-items-center justify-content-center">
             <p className="h3">Nu ai produse favorite!</p>
             <Link to="/">
-              <button className="btn btn-outline-dark">Inapoi la home</button>
+              <button className="btn btn-outline-dark">
+                Înapoi la prima pagină
+              </button>
             </Link>
           </div>
         )}
