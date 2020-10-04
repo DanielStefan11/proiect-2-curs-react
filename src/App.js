@@ -14,6 +14,7 @@ import Cart from "./pages/cartPage/Cart";
 import Favorites from "./pages/favoriteProducts/Favorites";
 import Product from "./pages/productPage/Product";
 import TermsAndConditions from "./pages/terms&conditionsPage/TermsAndConditions";
+import Contact from "./pages/contactPage/Contact";
 
 class App extends React.Component {
   constructor() {
@@ -90,6 +91,7 @@ class App extends React.Component {
               />
             )}
           />
+          <Route to="/contact" component={Contact} />
           <Route path="*" component={Page404} />
         </Switch>
       </div>
