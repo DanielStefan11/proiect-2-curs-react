@@ -91,7 +91,7 @@ class App extends React.Component {
               />
             )}
           />
-          <Route to="/contact" component={Contact} />
+          <Route path="/contact" component={Contact} />
           <Route path="*" component={Page404} />
         </Switch>
       </div>
