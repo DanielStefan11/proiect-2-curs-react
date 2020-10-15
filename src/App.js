@@ -71,16 +71,7 @@ class App extends React.Component {
               />
             )}
           />
-          <Route
-            path="/category/:categoryName"
-            component={Category}
-            // render={() => (
-            //   <Category
-            //     scrollBtnVizibility={this.state.scrollBtnVizibility}
-            //     handleScrollToTop={() => this.handleScrollToTop()}
-            //   />
-            // )}
-          />
+          <Route path="/category/:categoryName" component={Category} />
           <Route path="/product/:productId" component={Product} />
           <Route
             path="/termeni-si-conditii"

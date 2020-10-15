@@ -64,10 +64,11 @@ function Cart(props) {
                   Total de plată:{" "}
                 </p>
               </div>
-              <div className="w-25">
+              <div className="w-25 d-flex flex-column">
                 <p className="my-4 text-center">
                   {totalSum(props.products)} {props.products[0].currency}
                 </p>
+                <button className="btn btn-primary">Plasează comanda</button>
               </div>
             </div>
           </div>

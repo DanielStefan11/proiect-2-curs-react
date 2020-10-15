@@ -10,7 +10,7 @@ export default function TermsAndConditions(props) {
       <div className="container">
         <h1 className="text-center mb-5">Termeni și condiții</h1>
         <div className="mb-5">
-          <h5>1. Definiții și termeni</h5>
+          <h5 className="font-weight-bold">1. Definiții și termeni</h5>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
             illo consequatur deleniti praesentium perspiciatis sapiente nesciunt
@@ -32,7 +32,7 @@ export default function TermsAndConditions(props) {
             dolorum est odit sunt!
           </p>
 
-          <h5>2. Documente contractuale</h5>
+          <h5 className="font-weight-bold">2. Documente contractuale</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
             aliquid officia in harum quibusdam recusandae nobis enim debitis,
@@ -52,7 +52,7 @@ export default function TermsAndConditions(props) {
             ducimus animi voluptates cum.
           </p>
 
-          <h5>3. Politica de vânzare online</h5>
+          <h5 className="font-weight-bold">3. Politica de vânzare online</h5>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
             tempora eius aspernatur quibusdam veniam error recusandae, soluta
@@ -75,7 +75,7 @@ export default function TermsAndConditions(props) {
             ipsa vitae suscipit. Perferendis, corrupti enim!
           </p>
 
-          <h5>4. Comanda</h5>
+          <h5 className="font-weight-bold">4. Comanda</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
             praesentium illo consequatur molestiae dignissimos enim odit quae!
@@ -97,7 +97,7 @@ export default function TermsAndConditions(props) {
             incidunt facilis?
           </p>
 
-          <h5>5. Confidențialitate</h5>
+          <h5 className="font-weight-bold">5. Confidențialitate</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
             excepturi ad ducimus inventore, obcaecati eveniet enim consectetur
@@ -118,7 +118,7 @@ export default function TermsAndConditions(props) {
             dignissimos harum aut praesentium.
           </p>
 
-          <h5>6. Facturare - Plată</h5>
+          <h5 className="font-weight-bold">6. Facturare - Plată</h5>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
             iste quo eveniet incidunt, delectus eaque ea, iusto atque dolore
@@ -145,7 +145,7 @@ export default function TermsAndConditions(props) {
             possimus commodi at eius laudantium sapiente nobis!
           </p>
 
-          <h5>7. Livrarea</h5>
+          <h5 className="font-weight-bold">7. Livrarea</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
             labore, autem alias, repudiandae excepturi quibusdam earum
@@ -161,7 +161,7 @@ export default function TermsAndConditions(props) {
             consectetur quis ullam! Eius est voluptas id alias voluptatem.
           </p>
 
-          <h5>8. Garanții</h5>
+          <h5 className="font-weight-bold">8. Garanții</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
             sequi odio ipsum, necessitatibus beatae soluta optio consequuntur
@@ -173,7 +173,9 @@ export default function TermsAndConditions(props) {
             distinctio.
           </p>
 
-          <h5>9. Prelucrarea datelor cu caracter personal</h5>
+          <h5 className="font-weight-bold">
+            9. Prelucrarea datelor cu caracter personal
+          </h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
             error, labore earum voluptatum ducimus expedita, dignissimos
@@ -185,7 +187,7 @@ export default function TermsAndConditions(props) {
             nostrum saepe enim deserunt recusandae autem.
           </p>
 
-          <h5>10. Cookie-uri</h5>
+          <h5 className="font-weight-bold">10. Cookie-uri</h5>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet
             laboriosam ab ut? Qui, eius hic? At debitis enim minima

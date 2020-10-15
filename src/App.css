@@ -9,8 +9,7 @@ body a {
 }
 
 body a:hover {
-  /* color: #46A049; */
-  color: #6A8ED9;
+  color: #6a8ed9;
   text-decoration: none;
 }
 body h1,

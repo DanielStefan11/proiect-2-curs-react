@@ -32,7 +32,6 @@ class Product extends React.Component {
       return Number(productId) === product.id;
     });
     this.setState({ product: currentProduct });
-    // console.log(this.props);
   }
 
   render() {
