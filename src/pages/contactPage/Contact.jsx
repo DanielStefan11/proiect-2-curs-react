@@ -73,10 +73,10 @@ export default function Contact() {
                 className="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
-                id="inlineRadio1"
+                id="inlineRadio2"
                 value="option1"
               />
-              <label className="form-check-label" htmlFor="inlineRadio1">
+              <label className="form-check-label" htmlFor="inlineRadio2">
                 <strong>Colaborator</strong>
               </label>
             </div>
