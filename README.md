@@ -2,7 +2,7 @@
 
 Online shop created with React.js.
 
-**deployed at:**
+**Deployed at:** https://tech-store-react.herokuapp.com/
 
 ## Functionalities:
 
