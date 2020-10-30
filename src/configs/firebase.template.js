@@ -1,4 +1,4 @@
-const firebaseConfig = {
+const firebaseTemplateConfig = {
   apiKey: "TODO",
   authDomain: "TODO",
   databaseURL: "TODO",
@@ -8,4 +8,4 @@ const firebaseConfig = {
   appId: "TODO",
 };
 
-export default firebaseConfig;
+export default firebaseTemplateConfig;
