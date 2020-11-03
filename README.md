@@ -2,12 +2,12 @@
 
 Online shop created with React.js.
 
-**deployed at:**
+**Deployed at:** https://tech-store-react.herokuapp.com/
 
 ## Functionalities:
 
 - clicking on any category in the home page will list all the products available;
-- I simulated a data base for products using o json file and get them by asyncronous request;
+- I simulated a database for products using a JSON file and get them by asynchronous request;
 - each product has its own product page;
 - login page: you can login with Google or Facebook via Firebase;
 - add/remove any product to/from Cart;
@@ -19,7 +19,7 @@ Online shop created with React.js.
 - React.js;
 - React Router and dynamic routing;
 - Redux for state management;
-- Redux Thunk for asyncronous requests (Login);
+- Redux Thunk for asynchronous requests (Login);
 - React Icons;
 - Firebase for Logging;
 - Bootstrap + custom CSS3.
