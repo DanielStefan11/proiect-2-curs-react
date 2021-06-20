@@ -6,9 +6,9 @@
   max-height: 150px;
 }
 
-.favourites-container {
+/* .favourites-container {
   width: 100%;
-}
+} */
 
 .delete-btn {
   cursor: pointer;
@@ -27,5 +27,20 @@
 
   .favorite-product-btns {
     justify-content: center;
+  }
+
+  .favorite-product-btns button:last-child {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .favorite-product-btns {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .favorite-product-btns button:last-child {
+    margin-left: 0 !important;
   }
 }

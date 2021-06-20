@@ -12,8 +12,8 @@ function HomeCategory(props) {
           <img src={image} alt={name} className="w-100 rounded" />
         </div>
       </Link>
-      <div className="d-flex justify-content-between">
-        <div>
+      <div className="d-flex justify-content-between preview-action-wrapper">
+        <div className="w-100">
           <h2 className="h4 my-1">
             <strong>{name}</strong>
           </h2>

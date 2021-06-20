@@ -8,19 +8,24 @@ import "./Header.css";
 // Redux
 import { connect } from "react-redux";
 import { logoutUser } from "../../redux/user/UserActions";
+import { openMenu } from "../../redux/mobileMenu/MobileMenuActions";
 // React Icons
 import { AiFillHeart } from "react-icons/ai";
 import { FaShoppingCart } from "react-icons/fa";
+import { FiMenu as MenuIcon } from "react-icons/fi";
+// components
+import MobileMenu from "./MobileMenu";
 
 function Header(props) {
   return (
-    <header className="border-bottom mb-3">
-      <div className="menu-container container-fluid container-min-max-width d-flex justify-content-between align-items-center">
+    <header className="border-bottom">
+      <div className="menu-container container-fluid h-100 container-min-max-width d-flex justify-content-between align-items-center">
         <Link to="/" className="my-3">
           <img src={Logo} alt="Sirluggia Shop" className="logo" />
         </Link>
+
         <div>
-          {props.user ? <p>Salut, {props.user.displayName}!</p> : null}
+          {/* {props.user ? <p>Salut, {props.user.displayName}!</p> : null} */}
           <div className="links-container d-flex justify-content-end">
             <NavLink
               exact
@@ -62,26 +67,33 @@ function Header(props) {
                 Logare
               </Link>
             )}
-            <div className="d-flex">
-              <div className="d-flex align-items-center">
-                <Link to="/cart" className="d-flex">
-                  <FaShoppingCart size="2rem" className="ml-2" />
-                  <p className="ml-1 mb-0">
-                    <strong>{props.numberOfProducts}</strong>
-                  </p>
-                </Link>
-              </div>
-              <div className="d-flex align-items-center">
-                <Link to="/favorite" className="d-flex">
-                  <AiFillHeart className="ml-2" size="2rem" />
-                  <p className="ml-1 mb-0">
-                    <strong>{props.numberOfFavoriteProducts}</strong>
-                  </p>
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
+
+        <div className="d-flex">
+          <div className="d-flex align-items-center">
+            <Link to="/cart" className="d-flex">
+              <FaShoppingCart className="ml-2 added-products-icons" />
+              <p className="ml-1 mb-0">
+                <strong>{props.numberOfProducts}</strong>
+              </p>
+            </Link>
+          </div>
+          <div className="d-flex align-items-center">
+            <Link to="/favorite" className="d-flex">
+              <AiFillHeart className="ml-2 added-products-icons" />
+              <p className="ml-1 mb-0">
+                <strong>{props.numberOfFavoriteProducts}</strong>
+              </p>
+            </Link>
+          </div>
+        </div>
+
+        <button className="menu-icon" onClick={() => props.openMenu()}>
+          <MenuIcon />
+        </button>
+
+        <MobileMenu />
       </div>
     </header>
   );
@@ -92,11 +104,14 @@ function mapStateToProps(state) {
     numberOfProducts: state.cart.products.length,
     user: state.user.data,
     numberOfFavoriteProducts: state.favorites.products.length,
+    isMenuOpen: state.mobileMenu.isOpen,
   };
 }
+
 function mapDispatchToProps(dispatch) {
   return {
     signOut: () => dispatch(logoutUser()),
+    openMenu: () => dispatch(openMenu()),
   };
 }
 
