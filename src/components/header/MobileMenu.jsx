@@ -16,7 +16,7 @@ const MobileMenu = (props) => {
       style={
         props.isMenuOpen
           ? { right: "0px", opacity: "0.96" }
-          : { transform: "translateX(900px)", opacity: "0" }
+          : { transform: "translateX(1000px)", opacity: "0" }
       }
     >
       <div className="w-100 d-flex justify-content-end">

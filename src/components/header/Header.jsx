@@ -15,6 +15,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { FiMenu as MenuIcon } from "react-icons/fi";
 // components
 import MobileMenu from "./MobileMenu";
+import Overlay from "./Overlay";
 
 function Header(props) {
   return (
@@ -25,7 +26,6 @@ function Header(props) {
         </Link>
 
         <div>
-          {/* {props.user ? <p>Salut, {props.user.displayName}!</p> : null} */}
           <div className="links-container d-flex justify-content-end">
             <NavLink
               exact
@@ -93,6 +93,7 @@ function Header(props) {
           <MenuIcon />
         </button>
 
+        <Overlay />
         <MobileMenu />
       </div>
     </header>
