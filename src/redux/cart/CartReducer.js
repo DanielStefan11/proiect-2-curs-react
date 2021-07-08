@@ -1,4 +1,4 @@
-import { ADD_TO_CART, REMOVE_FROM_CART } from "./CartConstants";
+import { ADD_TO_CART, REMOVE_FROM_CART } from "../reduxConstants";
 
 const initialState = {
   products: [],

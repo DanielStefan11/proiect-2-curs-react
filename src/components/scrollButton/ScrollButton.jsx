@@ -9,7 +9,11 @@ export default function ScrollButton(props) {
     <div>
       {scrollBtnVizibility ? (
         <button style={scrollBtn} onClick={() => handleScrollToTop()}>
-          <IoIosArrowDropupCircle size="3rem" />
+          <IoIosArrowDropupCircle
+            size="3rem"
+            style={scrollIcon}
+            onClick={() => handleScrollToTop()}
+          />
         </button>
       ) : null}
     </div>
@@ -20,10 +24,14 @@ const scrollBtn = {
   zIndex: 1,
   cursor: "pointer",
   position: "fixed",
-  right: "50px",
-  bottom: "50px",
+  right: "20px",
+  bottom: "20px",
   backgroundColor: "transparent",
   color: "#6A8ED9",
   outline: "none",
   border: "none",
+};
+
+const scrollIcon = {
+  cursor: "pointer",
 };

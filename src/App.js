@@ -15,6 +15,8 @@ import Favorites from "./pages/favoriteProducts/Favorites";
 import Product from "./pages/productPage/Product";
 import TermsAndConditions from "./pages/terms&conditionsPage/TermsAndConditions";
 import Contact from "./pages/contactPage/Contact";
+// context provider
+import RoutesProvider from "./context/routesContext/RoutesContext";
 
 class App extends React.Component {
   constructor() {
@@ -47,45 +49,47 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="app">
-        <Switch>
-          <Route path="/login" component={Login} />
-          <Route
-            exact
-            path="/"
-            render={() => (
-              <Home
-                scrollBtnVizibility={this.state.scrollBtnVizibility}
-                handleScrollToTop={() => this.handleScrollToTop()}
-              />
-            )}
-          />
-          <Route path="/cart" component={Cart} />
-          <Route path="/favorite" component={Favorites} />
-          <Route
-            path="/about"
-            render={() => (
-              <About
-                scrollBtnVizibility={this.state.scrollBtnVizibility}
-                handleScrollToTop={() => this.handleScrollToTop()}
-              />
-            )}
-          />
-          <Route path="/category/:categoryName" component={Category} />
-          <Route path="/product/:productId" component={Product} />
-          <Route
-            path="/termeni-si-conditii"
-            render={() => (
-              <TermsAndConditions
-                scrollBtnVizibility={this.state.scrollBtnVizibility}
-                handleScrollToTop={() => this.handleScrollToTop()}
-              />
-            )}
-          />
-          <Route path="/contact" component={Contact} />
-          <Route path="*" component={Page404} />
-        </Switch>
-      </div>
+      <RoutesProvider>
+        <div className="app">
+          <Switch>
+            <Route path="/login" component={Login} />
+            <Route
+              exact
+              path="/"
+              render={() => (
+                <Home
+                  scrollBtnVizibility={this.state.scrollBtnVizibility}
+                  handleScrollToTop={() => this.handleScrollToTop()}
+                />
+              )}
+            />
+            <Route path="/cart" component={Cart} />
+            <Route path="/favorite" component={Favorites} />
+            <Route
+              path="/about"
+              render={() => (
+                <About
+                  scrollBtnVizibility={this.state.scrollBtnVizibility}
+                  handleScrollToTop={() => this.handleScrollToTop()}
+                />
+              )}
+            />
+            <Route path="/:categoryName" component={Category} />
+            <Route path="/product/:productId" component={Product} />
+            <Route
+              path="/termeni-si-conditii"
+              render={() => (
+                <TermsAndConditions
+                  scrollBtnVizibility={this.state.scrollBtnVizibility}
+                  handleScrollToTop={() => this.handleScrollToTop()}
+                />
+              )}
+            />
+            <Route path="/contact" component={Contact} />
+            <Route path="*" component={Page404} />
+          </Switch>
+        </div>
+      </RoutesProvider>
     );
   }
 }

@@ -23,7 +23,7 @@ function Cart(props) {
                 d-flex flex-column justify-content-center align-items-center"
       >
         {props.products.length ? (
-          <div className="w-100">
+          <div className="container-fluid">
             <div className="cart-info d-flex justify-content-between text-center h4 text-bold">
               <p className="w-25">Produs</p>
               <p className="w-25">Pret</p>
@@ -44,8 +44,8 @@ function Cart(props) {
                     {product.price} {product.currency}
                   </p>
                   <p className="w-25">{product.quantity}</p>
-                  <div className="w-25 d-flex justify-content-center">
-                    <p className="mr-2">
+                  <div className="w-25 d-flex justify-content-center align-items-center">
+                    <p className="mr-2 mb-0">
                       {product.price * product.quantity} {product.currency}
                     </p>
                     <button
@@ -68,13 +68,16 @@ function Cart(props) {
                 <p className="my-4 text-center">
                   {totalSum(props.products)} {props.products[0].currency}
                 </p>
-                <button className="btn btn-primary">Plasează comanda</button>
+                {/* <button className="btn btn-primary">Plasează comanda</button> */}
               </div>
+            </div>
+            <div className="w-100 d-flex justify-content-center">
+              <button className="btn btn-primary">Plasează comanda</button>
             </div>
           </div>
         ) : (
           <div className="d-flex flex-column align-items-center">
-            <p className="h3">Nu ai produse în coș!</p>
+            <p className="h3 text-center">Nu ai produse în coș!</p>
             <Link to="/">
               <button className="btn btn-outline-dark">
                 Înapoi la prima pagină
