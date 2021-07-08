@@ -1,4 +1,4 @@
-import { ADD_TO_FAVORITES, REMOVE_FROM_FAVORITES } from "./FavoritesConstants";
+import { ADD_TO_FAVORITES, REMOVE_FROM_FAVORITES } from "../reduxConstants";
 
 export function addToFavorites(payload) {
   return {

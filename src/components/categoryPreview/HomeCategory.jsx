@@ -7,7 +7,7 @@ function HomeCategory(props) {
 
   return (
     <div className="col-12 col-md-6 my-3">
-      <Link to={`/category/${route}`}>
+      <Link to={`/${route}`}>
         <div className="w-100">
           <img src={image} alt={name} className="w-100 rounded" />
         </div>
@@ -19,7 +19,7 @@ function HomeCategory(props) {
           </h2>
           <p className="m-0">{description}</p>
         </div>
-        <Link to={`/category/${route}`}>
+        <Link to={`/${route}`}>
           <button className="btn btn-primary mt-2">
             <strong>Descoperă</strong>
           </button>

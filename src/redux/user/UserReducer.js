@@ -2,7 +2,7 @@ import {
   START_LOADING,
   UPDATE_USER_DATA,
   UPDATE_USER_ERROR,
-} from "./UserConstants";
+} from "../reduxConstants";
 
 const initialState = {
   data: null,

@@ -1,4 +1,4 @@
-import { OPEN_MENU, CLOSE_MENU } from "./MobileMenuConstants";
+import { OPEN_MENU, CLOSE_MENU } from "../reduxConstants";
 
 const initialState = {
   isOpen: false,

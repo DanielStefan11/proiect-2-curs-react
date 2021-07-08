@@ -18,6 +18,37 @@ header .logout:hover {
   font-size: 2rem;
 }
 
+.links-container {
+  position: relative;
+}
+
+.dropdown-btn {
+  cursor: pointer;
+}
+
+.dropdown-btn:hover {
+  color: #6a8ed9;
+}
+
+.dropdown-wrapper {
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  z-index: 20;
+  border: 1px solid #6a8ed9;
+  background-color: #fff;
+  border-radius: 15px;
+  width: 250px;
+}
+
+.dropdown-wrapper * {
+  margin-bottom: 1rem;
+}
+
 .overlay {
   position: absolute;
   top: 0;
