@@ -10,7 +10,6 @@ import { FaTruck, FaRegCreditCard, FaAward } from "react-icons/fa";
 import { ImPriceTags, ImCheckboxChecked } from "react-icons/im";
 // CSS
 import "./About.css";
-import "./AboutMobile.css";
 
 function About(props) {
   const { scrollBtnVizibility, handleScrollToTop } = props;

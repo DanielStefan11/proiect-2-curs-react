@@ -1,6 +1,7 @@
 import React from "react";
 // Components
 import Layout from "../../components/layout/Layout";
+import { BsFillTrashFill as RemoveIcon } from "react-icons/bs";
 // Redux
 import { connect } from "react-redux";
 import { removeFromCart } from "../../redux/cart/CartActions";
@@ -52,7 +53,7 @@ function Cart(props) {
                       className="btn btn-outline-danger"
                       onClick={() => props.removeFromCart({ id: product.id })}
                     >
-                      Șterge
+                      <RemoveIcon />
                     </button>
                   </div>
                 </div>

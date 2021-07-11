@@ -50,10 +50,10 @@ class Product extends React.Component {
               <img src={product.image} alt="Product presentation" />
             </div>
             <div className="product-details">
-              <p className="h3 text-primary font-weight-bold">
+              <p className="h3 text-primary font-weight-bold text-center text-sm-center text-md-left">
                 {product.price} {product.currency}
               </p>
-              <div className="btn-container d-flex flex-column">
+              <div className="btn-container d-flex flex-column align-items-center align-items-sm-center align-items-md-start">
                 <button
                   className="btn btn-dark mb-4 font-weight-bold"
                   onClick={() => {

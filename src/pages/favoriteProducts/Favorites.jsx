@@ -1,6 +1,8 @@
 import React from "react";
 // Components
 import Layout from "../../components/layout/Layout";
+import { FaCartPlus as AddToCartICon } from "react-icons/fa";
+import { BsFillTrashFill as RemoveIcon } from "react-icons/bs";
 // React Router
 import { Link } from "react-router-dom";
 // Redux
@@ -50,7 +52,7 @@ function Favorites(props) {
                         })
                       }
                     >
-                      Add to cart
+                      <AddToCartICon />
                     </button>
                     <button
                       className="btn btn-outline-danger ml-3"
@@ -58,7 +60,7 @@ function Favorites(props) {
                         props.removeFromFavorites({ id: product.id })
                       }
                     >
-                      Șterge
+                      <RemoveIcon />
                     </button>
                   </div>
                 </div>
