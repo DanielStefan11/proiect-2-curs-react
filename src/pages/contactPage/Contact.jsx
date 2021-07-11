@@ -11,12 +11,12 @@ export default function Contact() {
   return (
     <Layout>
       <div className="container">
-        <h1 className="text-center mt-3">Contactează-ne</h1>
+        <h1 className="text-center mt-3">Contact Us</h1>
         <div className="form-container d-flex justify-content-between">
           <form className="container">
             <div className="form-group">
               <label htmlFor="name">
-                <strong>Nume și prenume</strong>
+                <strong>Name</strong>
               </label>
               <input
                 type="text"
@@ -26,7 +26,7 @@ export default function Contact() {
             </div>
             <div className="form-group">
               <label htmlFor="subject">
-                <strong>Subiect</strong>
+                <strong>Subject</strong>
               </label>
               <select className="form-control" name="subject">
                 <option value="1">Informații despre produs</option>
@@ -38,17 +38,17 @@ export default function Contact() {
             </div>
             <div className="form-group">
               <label htmlFor="email">
-                <strong>Adresa de email</strong>
+                <strong>Email adress</strong>
               </label>
               <input
                 type="email"
                 className="form-control"
-                placeholder="Introdu adresa de email"
+                placeholder="Introdu Email adress"
               />
             </div>
             <div className="form-group">
               <label htmlFor="message">
-                <strong>Mesaj</strong>
+                <strong>Message</strong>
               </label>
               <textarea
                 className="form-control"
@@ -77,10 +77,10 @@ export default function Contact() {
                 value="option1"
               />
               <label className="form-check-label" htmlFor="inlineRadio2">
-                <strong>Colaborator</strong>
+                <strong>Partner</strong>
               </label>
             </div>
-            <button className="btn btn-primary">Trimite</button>
+            <button className="btn btn-primary">Send</button>
           </form>
           <div className="contact-info">
             <h4>SC Tech store SRL</h4>

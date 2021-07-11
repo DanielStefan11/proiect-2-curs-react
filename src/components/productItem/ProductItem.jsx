@@ -47,7 +47,7 @@ function ProductItem(props) {
           })
         }
       >
-        Adaugă în coș
+        Add to cart
       </button>
       <div className="favorites-btn-container">
         {!foundProduct ? (

@@ -68,7 +68,7 @@ class Product extends React.Component {
                     });
                   }}
                 >
-                  Adaugă în coș
+                  Add to cart
                 </button>
                 {!foundProduct ? (
                   <button
@@ -77,7 +77,7 @@ class Product extends React.Component {
                       this.props.addToFavorites(product);
                     }}
                   >
-                    Adaugă la favorite
+                    Add to favorites
                   </button>
                 ) : (
                   <button
@@ -86,7 +86,7 @@ class Product extends React.Component {
                       this.props.removeFromFavorites({ id: product.id });
                     }}
                   >
-                    Elimină din favorite
+                    Remove from favorites
                   </button>
                 )}
               </div>
@@ -94,10 +94,10 @@ class Product extends React.Component {
                 <span className="font-weight-bold">Brand</span>: {product.brand}
               </p>
               <p>
-                <span className="font-weight-bold">Culoare:</span>{" "}
+                <span className="font-weight-bold">Color:</span>{" "}
                 {product.colour}
               </p>
-              <p className="font-weight-bold mb-1">Descriere:</p>
+              <p className="font-weight-bold mb-1">Specifications:</p>
               <p>{product.description}</p>
             </div>
           </div>

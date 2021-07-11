@@ -58,13 +58,13 @@
         "currency": "LEI",
         "image": "https://i.imgur.com/FzLkQAV.jpg",
         "brand": "Asus",
-        "colour": "Negru",
+        "colour": "Black",
         "description": "Laptop ASUS Gaming 15.6'' TUF FX505GT, FHD, Procesor Intel® Core™ i5-9300H (8M Cache, up to 4.10 GHz), 8GB DDR4, 512GB SSD, GeForce GTX 1650 4GB, No OS, Black"
       }
     ],
     "image": "https://i.imgur.com/POcOu2g.jpg",
-    "name": "Laptopuri",
-    "description": "Apple, Asus, Lenovo și altele"
+    "name": "Laptops",
+    "description": "Apple, Asus, Lenovo and more"
   },
   "smartphones": {
     "items": [
@@ -96,7 +96,7 @@
         "image": "https://i.imgur.com/B2NYlNu.jpg",
         "brand": "Apple",
         "colour": "Silver",
-        "description": "64GB stocare, culoare Silver"
+        "description": "64GB stocare, Color Silver"
       },
       {
         "id": 10,
@@ -104,7 +104,7 @@
         "price": 3400,
         "currency": "LEI",
         "image": "https://i.imgur.com/ZUp74rN.jpg",
-        "colour": "Negru",
+        "colour": "Black",
         "brand": "Google",
         "description": "Octa Core, 64GB, 6GB RAM, Single SIM, 4G, 4-Camere, Just Black"
       },
@@ -130,8 +130,8 @@
       }
     ],
     "image": "https://i.imgur.com/VmzUPNq.jpg",
-    "name": "Telefoane",
-    "description": "Telefoane cu iOS și Android"
+    "name": "Smartphones",
+    "description": "iOS and Android"
   },
   "PCs": {
     "items": [
@@ -141,7 +141,7 @@
         "price": 2800,
         "currency": "LEI",
         "image": "https://i.imgur.com/kyDKH5d.jpg",
-        "colour": "Negru",
+        "colour": "Black",
         "brand": "Asus",
         "description": "Procesor Intel Core i5-9500 3.0GHz Coffee Lake, 8GB RAM, 512GB SSD, UHD 630, Endless OS"
       },
@@ -151,7 +151,7 @@
         "price": 3000,
         "currency": "LEI",
         "image": "https://i.imgur.com/OPMLDMK.jpg",
-        "colour": "Negru, silver",
+        "colour": "Black, silver",
         "brand": "Asus",
         "description": "21.5 inch FHD, Procesor Intel® i5-10210U 1.6GHz Comet Lake, 8GB RAM, 256GB SSD, UHD Graphics, Camera Web, EndlessOS"
       },
@@ -161,7 +161,7 @@
         "price": 1200,
         "currency": "LEI",
         "image": "https://i.imgur.com/Nrr4l0V.jpg",
-        "colour": "Negru",
+        "colour": "Black",
         "brand": "Asus",
         "description": "Sistem Office Start A3M8S48 Powered by ASUS, AMD Athlon 3000G 3.5GHz, 8GB DDR4, 480GB SSD, AMD Radeon™ Vega 3"
       },
@@ -181,7 +181,7 @@
         "price": 1700,
         "currency": "LEI",
         "image": "https://i.imgur.com/R80wsuE.jpg",
-        "colour": "Negru",
+        "colour": "Black",
         "brand": "Intel",
         "description": "Mini Sistem PC Intel (NUC) Next Unit of Computing NUC8i5BEH2, Core i5-8259U 2.3GHz, 2x DDR4 32GB max, M.2 SSD, HDD 2.5 inch, Wi-Fi, Bluetooth, HDMI"
       },
@@ -191,13 +191,13 @@
         "price": 2700,
         "currency": "LEI",
         "image": "https://i.imgur.com/PI37vik.png",
-        "colour": "Negru",
+        "colour": "Black",
         "brand": "Lenovo",
         "description": "Mini Sistem PC Lenovo ThinkCentre M75q Tiny, Procesor AMD® Ryzen™ 3 Pro 3200GE 3.3GHz, 8GB RAM, 256GB SSD, Vega 8, Win 10 Pro"
       }
     ],
     "image": "https://i.imgur.com/NxBBZUm.jpg",
-    "name": "PC-uri",
+    "name": "PCs",
     "description": "Office, gaming, all-in-one"
   },
   "accesories": {
@@ -218,7 +218,7 @@
         "price": 52,
         "currency": "LEI",
         "image": "https://i.imgur.com/i5g5JUe.jpg",
-        "colour": "negru",
+        "colour": "Black",
         "brand": "Logitech",
         "description": "Tastatură business cu fir pe USB"
       },
@@ -228,7 +228,7 @@
         "price": 120,
         "currency": "LEI",
         "image": "https://i.imgur.com/pIkpyUm.jpg",
-        "colour": "negru + galben",
+        "colour": "Black + galben",
         "brand": "Logitech",
         "description": "Mouse Gaming Logitech G102 Lightsync RGB Black"
       },
@@ -238,7 +238,7 @@
         "price": 140,
         "currency": "LEI",
         "image": "https://i.imgur.com/MKNAM1G.jpg",
-        "colour": "negru + gri",
+        "colour": "Black + gri",
         "brand": "Logitech",
         "description": "Gamepad Logitech F310 pentru pasionații de jocuri"
       },
@@ -248,7 +248,7 @@
         "price": 500,
         "currency": "LEI",
         "image": "https://i.imgur.com/JAtqFa9.jpg",
-        "colour": "Negru",
+        "colour": "Black",
         "brand": "LG",
         "description": "Monitor LED LG Gaming 22MK430H 21.5 inch 5 ms Black FreeSync 75Hz"
       },
@@ -258,14 +258,14 @@
         "price": 300,
         "currency": "LEI",
         "image": "https://i.imgur.com/cj4vgMT.jpg",
-        "colour": "Negru",
+        "colour": "Black",
         "brand": "Samsung",
         "description": "Monitor LED LG Gaming 22MK430H 21.5 inch 5 ms Black FreeSync 75Hz"
       }
     ],
     "image": "https://i.imgur.com/J3yyKI3.jpg",
-    "name": "Periferice",
-    "description": "Căști, tastaturi, mouse-uri, monitoare"
+    "name": "Accessories",
+    "description": "Headphones, keyboards, mice, monitors"
   },
   "smarttvs": {
     "items": [
@@ -275,9 +275,9 @@
         "price": 1700,
         "currency": "LEI",
         "image": "https://i.imgur.com/YlrTBG7.jpg",
-        "colour": "Negru",
+        "colour": "Black",
         "brand": "Samsung",
-        "description": "Televizor LED Samsung Smart TV 50RU7102 Seria RU7102 125cm negru 4K UHD HDR"
+        "description": "Televizor LED Samsung Smart TV 50RU7102 Seria RU7102 125cm Black 4K UHD HDR"
       },
       {
         "id": 26,
@@ -295,9 +295,9 @@
         "price": 4000,
         "currency": "LEI",
         "image": "https://i.imgur.com/oQKWVgY.jpg",
-        "colour": "Gri, negru",
+        "colour": "Gri, Black",
         "brand": "LG",
-        "description": "Televizor LED LG Smart TV 55UN80003LA Seria UN8000 139cm gri-negru 4K UHD HDR"
+        "description": "Televizor LED LG Smart TV 55UN80003LA Seria UN8000 139cm gri-Black 4K UHD HDR"
       },
       {
         "id": 28,
@@ -305,7 +305,7 @@
         "price": 1000,
         "currency": "LEI",
         "image": "https://i.imgur.com/kcsf47j.jpg",
-        "colour": "Negru",
+        "colour": "Black",
         "brand": "Samsung",
         "description": "Sistem Home Cinema Samsung HW-R450 2.1 Black care îți aduce acasă experiența audio din cinema"
       },
@@ -315,9 +315,9 @@
         "price": 1300,
         "currency": "LEI",
         "image": "https://i.imgur.com/oPW88PF.jpg",
-        "colour": "Negru",
+        "colour": "Black",
         "brand": "Philips",
-        "description": "Televizor LED Philips Smart TV 32PHS6605/12 Seria PHS6605/12 80cm negru HD Ready"
+        "description": "Televizor LED Philips Smart TV 32PHS6605/12 Seria PHS6605/12 80cm Black HD Ready"
       },
       {
         "id": 30,
@@ -325,36 +325,36 @@
         "price": 800,
         "currency": "LEI",
         "image": "https://i.imgur.com/7DPbmqB.jpg",
-        "colour": "Negru",
+        "colour": "Black",
         "brand": "Diamant",
-        "description": "Televizor LED Horizon Diamant 32HL4300H/A Seria HL4300H/A 81cm negru HD Ready"
+        "description": "Televizor LED Horizon Diamant 32HL4300H/A Seria HL4300H/A 81cm Black HD Ready"
       }
     ],
     "image": "https://i.imgur.com/cmZnzUw.jpg",
-    "name": "Televizoare smart",
+    "name": "Smart TVs",
     "description": "Samsung, Philips, LG etc."
   },
   "cameras": {
     "items": [
       {
         "id": 31,
-        "name": "Aparat foto D-SLR Nikon D7500",
+        "name": "D-SLR Nikon D7500",
         "price": 5800,
         "currency": "LEI",
         "image": "https://i.imgur.com/1H5uhkH.jpg",
-        "colour": "Negru",
+        "colour": "Black",
         "brand": "Nikon",
-        "description": "Aparat foto D-SLR Nikon D7500 Negru + Obiectiv AF-S DX 18-140mm f/3.5-5.6G VR Nikkor"
+        "description": "D-SLR Nikon D7500 Black + Obiectiv AF-S DX 18-140mm f/3.5-5.6G VR Nikkor"
       },
       {
         "id": 32,
-        "name": "Aparat foto Mirrorless Nikon Z50",
+        "name": "Mirrorless Nikon Z50",
         "price": 5500,
         "currency": "LEI",
         "image": "https://i.imgur.com/YObsOOj.jpg",
-        "colour": "Negru",
+        "colour": "Black",
         "brand": "Nikon",
-        "description": "Aparat foto Mirrorless Nikon Z50 Dual Zoom Kit 16-50mm VR + 50-250mm VR"
+        "description": "Mirrorless Nikon Z50 Dual Zoom Kit 16-50mm VR + 50-250mm VR"
       },
       {
         "id": 33,
@@ -362,43 +362,43 @@
         "price": 2000,
         "currency": "LEI",
         "image": "https://i.imgur.com/cx6aQcO.png",
-        "colour": "Negru",
+        "colour": "Black",
         "brand": "GoPro",
         "description": "GoPro HERO 8 Black Camera de Actiune 4K60"
       },
       {
         "id": 34,
-        "name": "Aparat foto D-SLR Nikon D3500",
+        "name": "D-SLR Nikon D3500",
         "price": 3300,
         "currency": "LEI",
         "image": "https://i.imgur.com/vspMGpq.jpg",
-        "colour": "Negru",
+        "colour": "Black",
         "brand": "Nikon",
-        "description": "Aparat foto D-SLR Nikon D3500 Black + Obiectiv AF-P Nikkor 18-140mm VR"
+        "description": "D-SLR Nikon D3500 Black + Obiectiv AF-P Nikkor 18-140mm VR"
       },
       {
         "id": 35,
-        "name": "Aparat foto Mirrorless Olympus",
+        "name": "Mirrorless Olympus",
         "price": 3360,
         "currency": "LEI",
         "image": "https://i.imgur.com/opfHMPm.jpg",
-        "colour": "Negru + argintiu",
+        "colour": "Black + argintiu",
         "brand": "Olympus",
-        "description": "Aparat foto Mirrorless Olympus E-M10 Mark III argintiu + EZ-M1442 IIR argintiu"
+        "description": "Mirrorless Olympus E-M10 Mark III argintiu + EZ-M1442 IIR argintiu"
       },
       {
         "id": 36,
-        "name": "Aparat foto Mirrorless Canon EOS M100",
+        "name": "Mirrorless Canon EOS M100",
         "price": 2900,
         "currency": "LEI",
         "image": "https://i.imgur.com/nkecZvG.jpg",
         "colour": "Srgintiu",
         "brand": "Canon",
-        "description": "Aparat foto Mirrorless Canon EOS M100 kit EF-M 15-45mm f/3.5-6.3 IS STM White"
+        "description": "Mirrorless Canon EOS M100 kit EF-M 15-45mm f/3.5-6.3 IS STM White"
       }
     ],
     "image": "https://i.imgur.com/PeYI36n.jpg",
-    "name": "Camere foto și video",
+    "name": "Photo/Video",
     "description": "DSRL, mirrorless"
   }
 }

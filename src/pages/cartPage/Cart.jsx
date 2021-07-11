@@ -77,10 +77,10 @@ function Cart(props) {
           </div>
         ) : (
           <div className="d-flex flex-column align-items-center">
-            <p className="h3 text-center">Nu ai produse în coș!</p>
+            <p className="h3 text-center">There are no products in the cart</p>
             <Link to="/">
               <button className="btn btn-outline-dark">
-                Înapoi la prima pagină
+                Back to Home page
               </button>
             </Link>
           </div>

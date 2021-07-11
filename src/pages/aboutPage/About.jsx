@@ -17,7 +17,7 @@ function About(props) {
   return (
     <Layout>
       <div className="about-page d-flex flex-column align-items-center">
-        <h1 className="text-center mb-5">Despre noi</h1>
+        <h1 className="text-center mb-5">About us</h1>
         <div className="info">
           <p className="font-weight-bold h4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe vitae
@@ -33,7 +33,7 @@ function About(props) {
           <div className="description-containers d-flex align-items-center">
             <img className="mr-5" src={LaptopImg} alt="experienta" />
             <div className="description-card-1">
-              <h5>Experiență de peste 10 ani</h5>
+              <h5>Over 10 years experience</h5>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse,
                 amet? Consequuntur dignissimos ipsa labore distinctio quos
@@ -48,7 +48,7 @@ function About(props) {
 
           <div className="description-containers d-flex align-items-center">
             <div className="description-card-2">
-              <h5>La noi găsești exact ceea ce-ți trebuie</h5>
+              <h5>We give you what you need</h5>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Nesciunt doloremque aperiam, delectus quam vel eum doloribus
@@ -63,7 +63,7 @@ function About(props) {
         </div>
 
         <div>
-          <h3 className="mb-5 text-center">De ce să alegi magazinul nostru</h3>
+          <h3 className="mb-5 text-center">Why choose us?</h3>
           <ul className="h5">
             <li>
               <ImCheckboxChecked />
@@ -108,23 +108,23 @@ function About(props) {
         </div>
 
         <div className="benefits-container">
-          <h3 className="text-center mb-5">Ce beneficii îți oferim</h3>
+          <h3 className="text-center mb-5">What benefits do we offer you?</h3>
           <div className="benefits-cards d-flex justify-content-around">
             <div>
               <FaTruck size="4rem" color="#0066ff" />
-              <h4>Transport ieftin și rapid oriunde în țară</h4>
+              <h4>Cheap and fast transport anywhere in the country</h4>
             </div>
             <div>
               <ImPriceTags size="4rem" color="#ff9933" />
-              <h4>Prețuri mici</h4>
+              <h4>Low prices</h4>
             </div>
             <div>
               <FaRegCreditCard size="4rem" color="#339933" />
-              <h4>Plăți în rate</h4>
+              <h4>Payments in installments</h4>
             </div>
             <div>
               <FaAward size="4rem" color="#cc0000" />
-              <h4>Produse de calitate</h4>
+              <h4>Quality products</h4>
             </div>
           </div>
         </div>

@@ -50,7 +50,7 @@ function Favorites(props) {
                         })
                       }
                     >
-                      Adaugă în coș
+                      Add to cart
                     </button>
                     <button
                       className="btn btn-outline-danger ml-3"
@@ -67,10 +67,10 @@ function Favorites(props) {
           </div>
         ) : (
           <div className="d-flex flex-column align-items-center justify-content-center">
-            <p className="h3 text-center">Nu ai produse favorite!</p>
+            <p className="h3 text-center">There are no favorite products</p>
             <Link to="/">
               <button className="btn btn-outline-dark">
-                Înapoi la prima pagină
+                Back to Home page
               </button>
             </Link>
           </div>

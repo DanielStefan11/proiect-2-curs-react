@@ -17,16 +17,16 @@ function Footer() {
     <footer className="pt-3 mt-3">
       <div className="container-fluid container-min-max-width d-flex justify-content-between">
         <div className="footer-group d-flex flex-column">
-          <h3 className="h5">Link-uri rapide:</h3>
-          <Link to="/about">Despre</Link>
-          <Link to="/termeni-si-conditii">Termeni și condiții</Link>
+          <h3 className="h5">Quick links:</h3>
+          <Link to="/about">About Us</Link>
+          <Link to="/termeni-si-conditii">Terms and conditions</Link>
         </div>
         <div className="footer-group">
-          <h3 className="h5">Contactează-mă:</h3>
+          <h3 className="h5">Contact</h3>
           <p className="m-0">
             <a href="mailto:dannielstefan592@gmail.com">
               <Mail className="mr-1 mb-1 footer-icon" />
-              dannielstefan592@gmail.com
+              daniel.stefan.calin@gmail.com
             </a>
           </p>
           <p className="m-0">
@@ -35,7 +35,7 @@ function Footer() {
           </p>
         </div>
         <div className="footer-group">
-          <h3 className="h5">Contactează-mă:</h3>
+          <h3 className="h5">More of my work</h3>
           <p className="m-0">
             <a
               href="https://github.com/DanielStefan11"
