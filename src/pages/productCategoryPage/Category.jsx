@@ -4,6 +4,7 @@ import products from "../../utils/products.json";
 // Components
 import Layout from "../../components/layout/Layout";
 import ProductList from "../../components/productList/ProductList";
+import ProductFilters from "../../components/productFilters/ProductFilters";
 
 class Category extends Component {
   constructor(props) {
@@ -11,6 +12,13 @@ class Category extends Component {
     this.state = {
       category: {},
       items: [],
+      // filters data
+      laptopsByName: [
+        {
+          label: "",
+          value: "",
+        },
+      ],
     };
   }
 
@@ -27,7 +35,8 @@ class Category extends Component {
     return (
       <Layout>
         <div className="container-fluid container-min-max-width">
-          <h2 className="text-center my-5">{this.state.category.name}</h2>
+          <h2 className="text-center mt-5 mb-3">{this.state.category.name}</h2>
+          <ProductFilters />
           <ProductList products={this.state.items} />
         </div>
       </Layout>

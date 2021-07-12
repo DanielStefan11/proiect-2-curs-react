@@ -18,6 +18,11 @@ h3 {
   font-weight: bold;
 }
 
+.filters {
+  /* width: 100%; */
+  width: 150px;
+}
+
 /* media queries */
 @media screen and (max-width: 768px) {
   h1 {
@@ -77,5 +82,11 @@ h3 {
   .preview-action-wrapper {
     flex-direction: column !important;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .filters {
+    width: 100%;
   }
 }

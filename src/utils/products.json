@@ -9,7 +9,8 @@
         "image": "https://i.imgur.com/8Szu50E.jpg",
         "brand": "Apple",
         "colour": "Silver",
-        "description": "Procesor Intel Core i9 2.30 GHz, 16GB, 1TB SSD, Radeon Pro 5500M 4GB, Silver, INT KB"
+        "description": "Procesor Intel Core i9 2.30 GHz, 16GB, 1TB SSD, Radeon Pro 5500M 4GB, Silver, INT KB",
+        "stock": 100
       },
       {
         "id": 2,
@@ -19,7 +20,8 @@
         "image": "https://i.imgur.com/wN3JUnE.jpg",
         "brand": "Asus",
         "colour": "Blue Metal",
-        "description": "Procesor AMD Ryzen 5 3500U pana la 3.70 GHz, 14 inch, Full HD, 8GB, 1TB SSD, AMD Radeon™ Vega 8 Graphics, Endless OS, Utopia Blue Metal"
+        "description": "Procesor AMD Ryzen 5 3500U pana la 3.70 GHz, 14 inch, Full HD, 8GB, 1TB SSD, AMD Radeon™ Vega 8 Graphics, Endless OS, Utopia Blue Metal",
+        "stock": 300
       },
       {
         "id": 3,
@@ -29,7 +31,8 @@
         "image": "https://i.imgur.com/kMRpUnI.jpg",
         "brand": "Lenovo",
         "colour": "Mineral Grey",
-        "description": "Processor Intel® Core™ i7-1065G7 up to 3.90 GHz, 15.6 inch, Full HD, IPS, 8GB, 512GB SSD, Intel Iris Plus Graphics , Free DOS, Mineral Grey"
+        "description": "Processor Intel® Core™ i7-1065G7 up to 3.90 GHz, 15.6 inch, Full HD, IPS, 8GB, 512GB SSD, Intel Iris Plus Graphics , Free DOS, Mineral Grey",
+        "stock": 600
       },
       {
         "id": 4,
@@ -39,7 +42,8 @@
         "image": "https://i.imgur.com/b6vGWYV.jpg",
         "brand": "Huawei",
         "colour": "Silver",
-        "description": "Procesor AMD Ryzen 5 3500U (4M Cache, up to 3.70 GHz), 8GB DDR4, 256GB SSD, Radeon Vega 8, Win 10 Home, Silver"
+        "description": "Procesor AMD Ryzen 5 3500U (4M Cache, up to 3.70 GHz), 8GB DDR4, 256GB SSD, Radeon Vega 8, Win 10 Home, Silver",
+        "stock": 800
       },
       {
         "id": 5,
@@ -49,7 +53,8 @@
         "image": "https://i.imgur.com/qddga6R.jpg",
         "brand": "Apple",
         "colour": "Gold",
-        "description": "Laptop Apple 13.3'' MacBook Air 13 with Retina True Tone, Ice Lake i3 1.1GHz, 8GB DDR4X, 256GB SSD, Intel Iris Plus, macOS Catalina, Gold, INT keyboard, Early 2020"
+        "description": "Laptop Apple 13.3'' MacBook Air 13 with Retina True Tone, Ice Lake i3 1.1GHz, 8GB DDR4X, 256GB SSD, Intel Iris Plus, macOS Catalina, Gold, INT keyboard, Early 2020",
+        "stock": 900
       },
       {
         "id": 6,
@@ -59,7 +64,8 @@
         "image": "https://i.imgur.com/FzLkQAV.jpg",
         "brand": "Asus",
         "colour": "Black",
-        "description": "Laptop ASUS Gaming 15.6'' TUF FX505GT, FHD, Procesor Intel® Core™ i5-9300H (8M Cache, up to 4.10 GHz), 8GB DDR4, 512GB SSD, GeForce GTX 1650 4GB, No OS, Black"
+        "description": "Laptop ASUS Gaming 15.6'' TUF FX505GT, FHD, Procesor Intel® Core™ i5-9300H (8M Cache, up to 4.10 GHz), 8GB DDR4, 512GB SSD, GeForce GTX 1650 4GB, No OS, Black",
+        "stock": 160
       }
     ],
     "image": "https://i.imgur.com/POcOu2g.jpg",
@@ -76,7 +82,8 @@
         "image": "https://i.imgur.com/CWVZeXD.jpg",
         "brand": "Samsung",
         "colour": "Prism Blue",
-        "description": "Octa Core, 128GB, 8GB RAM, Dual SIM, 4G, 5-Camere, Prism Blue"
+        "description": "Octa Core, 128GB, 8GB RAM, Dual SIM, 4G, 5-Camere, Prism Blue",
+        "stock": 50
       },
       {
         "id": 8,
@@ -86,7 +93,8 @@
         "image": "https://i.imgur.com/LU6DpF3.jpg",
         "brand": "Samsung",
         "colour": "Cosmic Grey",
-        "description": "5G Edition, Octa Core, 128GB, 12GB RAM, Dual SIM, 5-Camere, Cosmic Grey"
+        "description": "5G Edition, Octa Core, 128GB, 12GB RAM, Dual SIM, 5-Camere, Cosmic Grey",
+        "stock": 100
       },
       {
         "id": 9,
@@ -96,7 +104,8 @@
         "image": "https://i.imgur.com/B2NYlNu.jpg",
         "brand": "Apple",
         "colour": "Silver",
-        "description": "64GB stocare, Color Silver"
+        "description": "64GB stocare, Color Silver",
+        "stock": 300
       },
       {
         "id": 10,
@@ -106,7 +115,8 @@
         "image": "https://i.imgur.com/ZUp74rN.jpg",
         "colour": "Black",
         "brand": "Google",
-        "description": "Octa Core, 64GB, 6GB RAM, Single SIM, 4G, 4-Camere, Just Black"
+        "description": "Octa Core, 64GB, 6GB RAM, Single SIM, 4G, 4-Camere, Just Black",
+        "stock": 600
       },
       {
         "id": 11,
@@ -116,7 +126,8 @@
         "image": "https://i.imgur.com/8LbYSdU.jpg",
         "colour": "Aurora Black",
         "brand": "Asus",
-        "description": "ASUS ZenFone 7 (ZS670KS), Display Super AMOLED 90Hz, Gorilla Glass 6, Snapdragon 865 Octa Core, 128GB, 8GB RAM, Dual SIM, 5G, FLIP Triplel Camera, Baterie 5000 mAh, Fast charging 30W, Aurora Black"
+        "description": "ASUS ZenFone 7 (ZS670KS), Display Super AMOLED 90Hz, Gorilla Glass 6, Snapdragon 865 Octa Core, 128GB, 8GB RAM, Dual SIM, 5G, FLIP Triplel Camera, Baterie 5000 mAh, Fast charging 30W, Aurora Black",
+        "stock": 700
       },
       {
         "id": 12,
@@ -126,7 +137,8 @@
         "image": "https://i.imgur.com/VCVqESk.jpg",
         "colour": "Cloud Lavender",
         "brand": "Samsung",
-        "description": "Samsung Galaxy S20 FE (2020), Octa Core, 128GB, 6GB RAM, Dual SIM, 4G, 4-Camere, Cloud Lavender"
+        "description": "Samsung Galaxy S20 FE (2020), Octa Core, 128GB, 6GB RAM, Dual SIM, 4G, 4-Camere, Cloud Lavender",
+        "stock": 800
       }
     ],
     "image": "https://i.imgur.com/VmzUPNq.jpg",
@@ -143,7 +155,8 @@
         "image": "https://i.imgur.com/kyDKH5d.jpg",
         "colour": "Black",
         "brand": "Asus",
-        "description": "Procesor Intel Core i5-9500 3.0GHz Coffee Lake, 8GB RAM, 512GB SSD, UHD 630, Endless OS"
+        "description": "Procesor Intel Core i5-9500 3.0GHz Coffee Lake, 8GB RAM, 512GB SSD, UHD 630, Endless OS",
+        "stock": 500
       },
       {
         "id": 14,
@@ -153,7 +166,8 @@
         "image": "https://i.imgur.com/OPMLDMK.jpg",
         "colour": "Black, silver",
         "brand": "Asus",
-        "description": "21.5 inch FHD, Procesor Intel® i5-10210U 1.6GHz Comet Lake, 8GB RAM, 256GB SSD, UHD Graphics, Camera Web, EndlessOS"
+        "description": "21.5 inch FHD, Procesor Intel® i5-10210U 1.6GHz Comet Lake, 8GB RAM, 256GB SSD, UHD Graphics, Camera Web, EndlessOS",
+        "stock": 800
       },
       {
         "id": 15,
@@ -163,7 +177,8 @@
         "image": "https://i.imgur.com/Nrr4l0V.jpg",
         "colour": "Black",
         "brand": "Asus",
-        "description": "Sistem Office Start A3M8S48 Powered by ASUS, AMD Athlon 3000G 3.5GHz, 8GB DDR4, 480GB SSD, AMD Radeon™ Vega 3"
+        "description": "Sistem Office Start A3M8S48 Powered by ASUS, AMD Athlon 3000G 3.5GHz, 8GB DDR4, 480GB SSD, AMD Radeon™ Vega 3",
+        "stock": 100
       },
       {
         "id": 16,
@@ -173,7 +188,8 @@
         "image": "https://i.imgur.com/d9RSV2Z.jpg",
         "colour": "Argintiu",
         "brand": "Apple",
-        "description": "Sistem All-In-One Apple 21.5 inch iMac FHD, Procesor Intel Core i5 2.3GHz Kaby Lake, 8GB, 1TB HDD, Iris Plus 640, Camera Web, Mac OS X El Capitan, INT keyboard"
+        "description": "Sistem All-In-One Apple 21.5 inch iMac FHD, Procesor Intel Core i5 2.3GHz Kaby Lake, 8GB, 1TB HDD, Iris Plus 640, Camera Web, Mac OS X El Capitan, INT keyboard",
+        "stock": 100
       },
       {
         "id": 17,
@@ -183,7 +199,8 @@
         "image": "https://i.imgur.com/R80wsuE.jpg",
         "colour": "Black",
         "brand": "Intel",
-        "description": "Mini Sistem PC Intel (NUC) Next Unit of Computing NUC8i5BEH2, Core i5-8259U 2.3GHz, 2x DDR4 32GB max, M.2 SSD, HDD 2.5 inch, Wi-Fi, Bluetooth, HDMI"
+        "description": "Mini Sistem PC Intel (NUC) Next Unit of Computing NUC8i5BEH2, Core i5-8259U 2.3GHz, 2x DDR4 32GB max, M.2 SSD, HDD 2.5 inch, Wi-Fi, Bluetooth, HDMI",
+        "stock": 100
       },
       {
         "id": 18,
@@ -193,7 +210,8 @@
         "image": "https://i.imgur.com/PI37vik.png",
         "colour": "Black",
         "brand": "Lenovo",
-        "description": "Mini Sistem PC Lenovo ThinkCentre M75q Tiny, Procesor AMD® Ryzen™ 3 Pro 3200GE 3.3GHz, 8GB RAM, 256GB SSD, Vega 8, Win 10 Pro"
+        "description": "Mini Sistem PC Lenovo ThinkCentre M75q Tiny, Procesor AMD® Ryzen™ 3 Pro 3200GE 3.3GHz, 8GB RAM, 256GB SSD, Vega 8, Win 10 Pro",
+        "stock": 100
       }
     ],
     "image": "https://i.imgur.com/NxBBZUm.jpg",
@@ -210,7 +228,8 @@
         "image": "https://i.imgur.com/9GHQ3dp.jpg",
         "colour": "Ice Blue",
         "brand": "JBL",
-        "description": "Căști over-the-ear cu fir"
+        "description": "Căști over-the-ear cu fir",
+        "stock": 100
       },
       {
         "id": 20,
@@ -220,7 +239,8 @@
         "image": "https://i.imgur.com/i5g5JUe.jpg",
         "colour": "Black",
         "brand": "Logitech",
-        "description": "Tastatură business cu fir pe USB"
+        "description": "Tastatură business cu fir pe USB",
+        "stock": 300
       },
       {
         "id": 21,
@@ -230,7 +250,8 @@
         "image": "https://i.imgur.com/pIkpyUm.jpg",
         "colour": "Black + galben",
         "brand": "Logitech",
-        "description": "Mouse Gaming Logitech G102 Lightsync RGB Black"
+        "description": "Mouse Gaming Logitech G102 Lightsync RGB Black",
+        "stock": 180
       },
       {
         "id": 22,
@@ -240,7 +261,8 @@
         "image": "https://i.imgur.com/MKNAM1G.jpg",
         "colour": "Black + gri",
         "brand": "Logitech",
-        "description": "Gamepad Logitech F310 pentru pasionații de jocuri"
+        "description": "Gamepad Logitech F310 pentru pasionații de jocuri",
+        "stock": 700
       },
       {
         "id": 23,
@@ -250,7 +272,8 @@
         "image": "https://i.imgur.com/JAtqFa9.jpg",
         "colour": "Black",
         "brand": "LG",
-        "description": "Monitor LED LG Gaming 22MK430H 21.5 inch 5 ms Black FreeSync 75Hz"
+        "description": "Monitor LED LG Gaming 22MK430H 21.5 inch 5 ms Black FreeSync 75Hz",
+        "stock": 670
       },
       {
         "id": 24,
@@ -260,7 +283,8 @@
         "image": "https://i.imgur.com/cj4vgMT.jpg",
         "colour": "Black",
         "brand": "Samsung",
-        "description": "Monitor LED LG Gaming 22MK430H 21.5 inch 5 ms Black FreeSync 75Hz"
+        "description": "Monitor LED LG Gaming 22MK430H 21.5 inch 5 ms Black FreeSync 75Hz",
+        "stock": 100
       }
     ],
     "image": "https://i.imgur.com/J3yyKI3.jpg",
@@ -277,7 +301,8 @@
         "image": "https://i.imgur.com/YlrTBG7.jpg",
         "colour": "Black",
         "brand": "Samsung",
-        "description": "Televizor LED Samsung Smart TV 50RU7102 Seria RU7102 125cm Black 4K UHD HDR"
+        "description": "Televizor LED Samsung Smart TV 50RU7102 Seria RU7102 125cm Black 4K UHD HDR",
+        "stock": 790
       },
       {
         "id": 26,
@@ -287,7 +312,8 @@
         "image": "https://i.imgur.com/jLj3dPE.jpg",
         "colour": "Argintiu",
         "brand": "Philips",
-        "description": "Televizor LED Philips Smart TV Android 43PUS8505/12 Seria PUS8505/12 108cm argintiu 4K UHD HDR Ambilight cu 3 laturi"
+        "description": "Televizor LED Philips Smart TV Android 43PUS8505/12 Seria PUS8505/12 108cm argintiu 4K UHD HDR Ambilight cu 3 laturi",
+        "stock": 100
       },
       {
         "id": 27,
@@ -297,7 +323,8 @@
         "image": "https://i.imgur.com/oQKWVgY.jpg",
         "colour": "Gri, Black",
         "brand": "LG",
-        "description": "Televizor LED LG Smart TV 55UN80003LA Seria UN8000 139cm gri-Black 4K UHD HDR"
+        "description": "Televizor LED LG Smart TV 55UN80003LA Seria UN8000 139cm gri-Black 4K UHD HDR",
+        "stock": 100
       },
       {
         "id": 28,
@@ -307,7 +334,8 @@
         "image": "https://i.imgur.com/kcsf47j.jpg",
         "colour": "Black",
         "brand": "Samsung",
-        "description": "Sistem Home Cinema Samsung HW-R450 2.1 Black care îți aduce acasă experiența audio din cinema"
+        "description": "Sistem Home Cinema Samsung HW-R450 2.1 Black care îți aduce acasă experiența audio din cinema",
+        "stock": 100
       },
       {
         "id": 29,
@@ -317,7 +345,8 @@
         "image": "https://i.imgur.com/oPW88PF.jpg",
         "colour": "Black",
         "brand": "Philips",
-        "description": "Televizor LED Philips Smart TV 32PHS6605/12 Seria PHS6605/12 80cm Black HD Ready"
+        "description": "Televizor LED Philips Smart TV 32PHS6605/12 Seria PHS6605/12 80cm Black HD Ready",
+        "stock": 100
       },
       {
         "id": 30,
@@ -327,7 +356,8 @@
         "image": "https://i.imgur.com/7DPbmqB.jpg",
         "colour": "Black",
         "brand": "Diamant",
-        "description": "Televizor LED Horizon Diamant 32HL4300H/A Seria HL4300H/A 81cm Black HD Ready"
+        "description": "Televizor LED Horizon Diamant 32HL4300H/A Seria HL4300H/A 81cm Black HD Ready",
+        "stock": 100
       }
     ],
     "image": "https://i.imgur.com/cmZnzUw.jpg",
@@ -344,7 +374,8 @@
         "image": "https://i.imgur.com/1H5uhkH.jpg",
         "colour": "Black",
         "brand": "Nikon",
-        "description": "D-SLR Nikon D7500 Black + Obiectiv AF-S DX 18-140mm f/3.5-5.6G VR Nikkor"
+        "description": "D-SLR Nikon D7500 Black + Obiectiv AF-S DX 18-140mm f/3.5-5.6G VR Nikkor",
+        "stock": 100
       },
       {
         "id": 32,
@@ -354,7 +385,8 @@
         "image": "https://i.imgur.com/YObsOOj.jpg",
         "colour": "Black",
         "brand": "Nikon",
-        "description": "Mirrorless Nikon Z50 Dual Zoom Kit 16-50mm VR + 50-250mm VR"
+        "description": "Mirrorless Nikon Z50 Dual Zoom Kit 16-50mm VR + 50-250mm VR",
+        "stock": 100
       },
       {
         "id": 33,
@@ -364,7 +396,8 @@
         "image": "https://i.imgur.com/cx6aQcO.png",
         "colour": "Black",
         "brand": "GoPro",
-        "description": "GoPro HERO 8 Black Camera de Actiune 4K60"
+        "description": "GoPro HERO 8 Black Camera de Actiune 4K60",
+        "stock": 100
       },
       {
         "id": 34,
@@ -374,7 +407,8 @@
         "image": "https://i.imgur.com/vspMGpq.jpg",
         "colour": "Black",
         "brand": "Nikon",
-        "description": "D-SLR Nikon D3500 Black + Obiectiv AF-P Nikkor 18-140mm VR"
+        "description": "D-SLR Nikon D3500 Black + Obiectiv AF-P Nikkor 18-140mm VR",
+        "stock": 100
       },
       {
         "id": 35,
@@ -384,7 +418,8 @@
         "image": "https://i.imgur.com/opfHMPm.jpg",
         "colour": "Black + argintiu",
         "brand": "Olympus",
-        "description": "Mirrorless Olympus E-M10 Mark III argintiu + EZ-M1442 IIR argintiu"
+        "description": "Mirrorless Olympus E-M10 Mark III argintiu + EZ-M1442 IIR argintiu",
+        "stock": 100
       },
       {
         "id": 36,
@@ -394,7 +429,8 @@
         "image": "https://i.imgur.com/nkecZvG.jpg",
         "colour": "Srgintiu",
         "brand": "Canon",
-        "description": "Mirrorless Canon EOS M100 kit EF-M 15-45mm f/3.5-6.3 IS STM White"
+        "description": "Mirrorless Canon EOS M100 kit EF-M 15-45mm f/3.5-6.3 IS STM White",
+        "stock": 100
       }
     ],
     "image": "https://i.imgur.com/PeYI36n.jpg",

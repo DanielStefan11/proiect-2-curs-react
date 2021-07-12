@@ -1,7 +1,8 @@
 import React from "react";
-// CSS
+// style
 import "./App.css";
 import "./utils/utility-classes.css";
+import "rsuite/dist/styles/rsuite-default.css";
 // React Router
 import { Switch, Route } from "react-router-dom";
 // Pages
